@@ -1,0 +1,77 @@
+﻿@inject AuthService AuthService
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <nav class="nav flex-column">
+        @if (isLoggedIn)
+        {
+            <div class="dieu-huong">
+                <NavLink class="nav-link nav-link-black" href="dashboard" Match="NavLinkMatch.All">
+                    <span class="oi oi-home" aria-hidden="true"></span> Home
+                </NavLink>
+                <NavLink class="nav-link nav-link-black" href="sanpham-list">
+                    <span class="oi oi-plus" aria-hidden="true"></span> Sản phẩm
+                </NavLink>
+                <NavLink class="nav-link nav-link-black" href="nguoidung-list">
+                    <span class="oi oi-people" aria-hidden="true"></span> Người dùng
+                </NavLink>
+                <NavLink class="nav-link nav-link-black" href="hoa-don-list">
+                    <span class="oi oi-document" aria-hidden="true"></span> Hóa đơn
+                </NavLink>
+            </div>
+
+        }
+    </nav>
+</div>
+
+<style>
+    .nav-link-black {
+        color: black;
+        text-decoration: none;
+        padding: 10px;
+        margin: 5px 0;
+        transition: background-color 0.3s ease;
+    }
+
+        .nav-link-black:hover {
+            background-color: #f0f0f0;
+        }
+
+    .dieu-huong {
+        padding-right: 200mm;
+        align: ri;
+    }
+
+    .nav {
+        background-color: #ffffff; /* Optional: background color for the nav */
+        padding: 10px; /* Optional: padding for better spacing */
+    }
+</style>
+
+@code {
+    private bool collapseNavMenu = true;
+    private bool isLoggedIn = false;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    protected override void OnInitialized()
+    {
+        isLoggedIn = AuthService.IsAuthenticated();
+        AuthService.OnChange += UpdateAuthState;
+    }
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+
+    private void UpdateAuthState()
+    {
+        isLoggedIn = AuthService.IsAuthenticated();
+        StateHasChanged();
+    }
+
+    public void Dispose()
+    {
+        AuthService.OnChange -= UpdateAuthState;
+    }
+}

@@ -1,0 +1,165 @@
+﻿@page "/"
+@using MudBlazor
+@inherits LayoutComponentBase
+@inject AuthService AuthService
+@inject NavigationManager Navigation
+@inject IJSRuntime JSRuntime
+
+<PageTitle>Trang Chủ</PageTitle>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+@*@if (!Navigation.Uri.Contains("/login") && !Navigation.Uri.Contains("/dashboard") && !Navigation.Uri.Contains("/sanpham-list") && !Navigation.Uri.Contains("/nguoidung-list") && !Navigation.Uri.Contains("/hoa-don-list"))*@
+
+  
+ 
+    @*<div class="carousel-container">
+        <MudCarousel Class="mud-width-full" Style="height:600px; width:1500px;" ShowArrows="@arrows" ShowBullets="@bullets"
+                     EnableSwipeGesture="@enableSwipeGesture" AutoCycle="@autocycle" TData="object">
+            <MudCarouselItem Transition="transition">
+                <div class="d-flex" style="height:100%">
+                    <img src="images/nen2.jpg" alt="Image 1" class="mx-auto my-auto" style="max-height: 100%; height: 600px; width: 100%;" />
+                </div>
+            </MudCarouselItem>
+            <MudCarouselItem Transition="transition">
+                <div class="d-flex" style="height:100%">
+                    <img src="images/nenIP1.jpg" alt="Image 1" class="mx-auto my-auto" style="max-height: 100%; height: 600px; width: 100%;" />
+                </div>
+            </MudCarouselItem>
+            <MudCarouselItem Transition="transition">
+                <div class="d-flex" style="height:100%">
+                    <img src="images/ip12prm.jpg" alt="Image 3" class="mx-auto my-auto" style="max-height: 100%;height: 600px; width: 100%;" />
+                </div>
+            </MudCarouselItem>
+        </MudCarousel>
+
+    </div>*@
+
+<div class="video-background">
+    <video autoplay loop muted playsinline>
+        <source src="videos/cmsoon.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    @*<div class="text-container">
+        <MudChip Color="Color.Success" class="welcome-text">CHÀO MỪNG ĐẾN TRANG QUẢN LÝ CỬA HÀNG ĐIỆN THOẠI</MudChip>
+        <MudDivider />
+    </div>
+    <div class="image-container">
+        <MudImage Src="images/ip12prm.jpg" Alt="Mony the dog" Elevation="25" Class="rounded-lg anhh" />
+    </div>*@
+
+@code {
+    private UserLoginModel user = new UserLoginModel();
+    private string ErrorMessage;
+
+    private async Task Logout()
+    {
+        await AuthService.Logout();
+        Navigation.NavigateTo("/");
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        try
+        {
+            await AuthService.Login(user);
+            await JSRuntime.InvokeVoidAsync("scrollToBottom");
+            Navigation.NavigateTo("/");
+        }
+        catch (Exception ex)
+        {
+            ErrorMessage = $"An error occurred: {ex.Message}";
+        }
+    }
+
+    private void Cancel()
+    {
+        Navigation.NavigateTo("/");
+    }
+}
+<style>
+
+    <!-- .welcome-text {
+        font-family: 'Cascadia Code SemiBold', sans-serif; /* Bạn có thể thay đổi font-family để chọn font mềm mại hơn */
+        color: #000000;
+        font-size: 2.5rem; /* Kích thước font */
+        text-align: center;
+    }-->
+
+     /*html, body {
+            background-color: rgba(255,255,255,1);
+            background-image: url('/images/cn.jpg');
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }*/
+
+    .video-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+    }
+
+        .video-background video {
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-size: cover;
+        }
+
+    .carousel-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .anhh {
+        height: 400px;
+        width: 1200px;
+        border: 1px solid #000; /* chỉ để dễ thấy phần tử hơn */
+        padding: 10px; /* khoảng đệm xung quanh ảnh */
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+    
+
+ .welcome-text {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+ }
+</style>

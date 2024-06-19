@@ -1,0 +1,14 @@
+﻿@page "/logout"
+@inject IHttpContextAccessor HttpContextAccessor
+@inject NavigationManager Navigation
+
+@code {
+    protected override void OnInitialized()
+    {
+        if (HttpContextAccessor.HttpContext?.Session != null)
+        {
+            HttpContextAccessor.HttpContext.Session.Clear();
+        }
+        Navigation.NavigateTo("/login");
+    }
+}

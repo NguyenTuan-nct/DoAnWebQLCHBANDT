@@ -1,0 +1,185 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NguyenTuanK55.bundle.scp.css",
+      "PackagePath": "staticwebassets\\NguyenTuanK55.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\1fca7174-32ec-4968-9ad4-e485fee59859.jpg",
+      "PackagePath": "staticwebassets\\images\\1fca7174-32ec-4968-9ad4-e485fee59859.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\2.jpeg",
+      "PackagePath": "staticwebassets\\images\\2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\2ip.jpg",
+      "PackagePath": "staticwebassets\\images\\2ip.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\3257606.jpg",
+      "PackagePath": "staticwebassets\\images\\3257606.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\9ae9eb42-c164-473a-8c60-ba62e3e9d66b.jpg",
+      "PackagePath": "staticwebassets\\images\\9ae9eb42-c164-473a-8c60-ba62e3e9d66b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\b981fa96-ba7a-4051-b9cb-3bc3f1095164.jpg",
+      "PackagePath": "staticwebassets\\images\\b981fa96-ba7a-4051-b9cb-3bc3f1095164.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\cn.jpg",
+      "PackagePath": "staticwebassets\\images\\cn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\darkphone.jpg",
+      "PackagePath": "staticwebassets\\images\\darkphone.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\fc2d5696-c626-42de-83f0-a4c751161d1e.jfif",
+      "PackagePath": "staticwebassets\\images\\fc2d5696-c626-42de-83f0-a4c751161d1e.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\hi.jpg",
+      "PackagePath": "staticwebassets\\images\\hi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\ip12prm.jpg",
+      "PackagePath": "staticwebassets\\images\\ip12prm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\nen2.jpg",
+      "PackagePath": "staticwebassets\\images\\nen2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\nenIP1.jpg",
+      "PackagePath": "staticwebassets\\images\\nenIP1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\nenmud3.jpg",
+      "PackagePath": "staticwebassets\\images\\nenmud3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\ssglx.jpg",
+      "PackagePath": "staticwebassets\\images\\ssglx.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\ssglxy.jpg",
+      "PackagePath": "staticwebassets\\images\\ssglxy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\videos\\480p.mp4",
+      "PackagePath": "staticwebassets\\videos\\480p.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\videos\\cmsoon.mp4",
+      "PackagePath": "staticwebassets\\videos\\cmsoon.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\videos\\digital.mp4",
+      "PackagePath": "staticwebassets\\videos\\digital.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\videos\\nenindex.mp4",
+      "PackagePath": "staticwebassets\\videos\\nenindex.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\videos\\nentrang2.mp4",
+      "PackagePath": "staticwebassets\\videos\\nentrang2.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\videos\\nentrangsp.mp4",
+      "PackagePath": "staticwebassets\\videos\\nentrangsp.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\videos\\smartcity.mp4",
+      "PackagePath": "staticwebassets\\videos\\smartcity.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\videos\\vpngate_public-vpn-104.opengw.net_tcp_443.ovpn",
+      "PackagePath": "staticwebassets\\videos\\vpngate_public-vpn-104.opengw.net_tcp_443.ovpn"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.NguyenTuanK55.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.NguyenTuanK55.props",
+      "PackagePath": "build\\NguyenTuanK55.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.NguyenTuanK55.props",
+      "PackagePath": "buildMultiTargeting\\NguyenTuanK55.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.NguyenTuanK55.props",
+      "PackagePath": "buildTransitive\\NguyenTuanK55.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

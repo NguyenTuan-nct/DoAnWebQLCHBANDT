@@ -1,0 +1,159 @@
+﻿@page "/edit-nguoidung/{NguoiDungId:int}"
+@using NguyenTuanK55.Models
+@inject ApplicationDbContext DbContext
+@inject NavigationManager Navigation
+@inject AuthService AuthService
+<AuthRedirect />
+<h1 class="text-center my-4">Sửa Người Dùng</h1>
+
+<div class="container">
+    <div class="card shadow-sm mb-3">
+        <div class="card-body">
+            @if (NguoiDung == null)
+            {
+                <p>Loading...</p>
+            }
+            else
+            {
+                var currentUserCap = AuthService.GetUserCap();
+                var canEdit = currentUserCap == 1 || (currentUserCap < NguoiDung.Cap && currentUserCap < 5);
+                <EditForm Model="@NguoiDung" OnValidSubmit="HandleValidSubmit">
+                    <DataAnnotationsValidator />
+                    <ValidationSummary class="text-danger" />
+
+                    <div class="form-group">
+                        <label for="hoTen">Họ Tên</label>
+                        <InputText id="hoTen" class="form-control" @bind-Value="NguoiDung.HoTen" disabled="@(canEdit ? false : true)" />
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="ngaySinh">Ngày Sinh</label>
+                        <InputDate id="ngaySinh" class="form-control" @bind-Value="NguoiDung.NgaySinh" disabled="@(canEdit ? false : true)" />
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="gioiTinh">Giới Tính</label>
+                        <InputSelect id="gioiTinh" class="form-control" @bind-Value="NguoiDung.GioiTinh" disabled="@(canEdit ? false : true)">
+                            <option value="true">Nam</option>
+                            <option value="false">Nữ</option>
+                        </InputSelect>
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="diaChi">Địa Chỉ</label>
+                        <InputText id="diaChi" class="form-control" @bind-Value="NguoiDung.DiaChi" disabled="@(canEdit ? false : true)" />
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="dienThoai">Điện Thoại</label>
+                        <InputText id="dienThoai" class="form-control" @bind-Value="NguoiDung.DienThoai" disabled="@(canEdit ? false : true)" />
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="email">Email</label>
+                        <InputText id="email" class="form-control" @bind-Value="NguoiDung.Email" disabled="@(canEdit ? false : true)" />
+                    </div>
+                    <div class="form-group mb-3 mt-3">
+                        <label for="matKhau">Mật Khẩu</label>
+                        <InputText id="matKhau" class="form-control" @bind-Value="TemporaryPassword" type="password" disabled="@(canEdit ? false : true)" />
+                    </div>
+                    @if (AuthService.GetUserCap() == 1)
+                    {
+                        <div class="form-group mt-3">
+                            <label for="cap">Cấp</label>
+                            <InputSelect id="cap" class="form-control" @bind-Value="NguoiDung.Cap">
+                                <option value="1">1 - Chủ Cửa Hàng</option>
+                                <option value="2">2 - Quản Lý Cửa Hàng</option>
+                                <option value="3">3 - Quản Lý Bán Hàng</option>
+                                <option value="4">4 - Quản Lý Kho Hàng</option>
+                                <option value="5">5 - Nhân Viên Kho Hàng</option>
+                            </InputSelect>
+                        </div>
+                    }
+
+                    <div class="d-flex justify-content-between">
+                        <button type="submit" class="btn btn-primary" disabled="@(canEdit ? false : true)">Lưu</button>
+                        <button type="button" class="btn btn-secondary" @onclick="Cancel">Hủy</button>
+                    </div>
+                </EditForm>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public int NguoiDungId { get; set; }
+
+    private NguoiDung NguoiDung;
+    private string TemporaryPassword;
+
+    protected override async Task OnInitializedAsync()
+    {
+        NguoiDung = await DbContext.NguoiDungs.FindAsync(NguoiDungId);
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        if (!string.IsNullOrEmpty(TemporaryPassword))
+        {
+            NguoiDung.MatKhau = TemporaryPassword;
+        }
+
+        DbContext.NguoiDungs.Update(NguoiDung);
+        await DbContext.SaveChangesAsync();
+        Navigation.NavigateTo("/nguoidung-list");
+    }
+
+    private void Cancel()
+    {
+        Navigation.NavigateTo("/nguoidung-list");
+    }
+}
+
+<style>
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    .container {
+        max-width: 800px;
+    }
+
+    .card {
+        border-radius: 10px;
+    }
+
+    .card-body {
+        padding: 30px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .form-check-input {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .btn-primary {
+        border-radius: 5px;
+    }
+
+    .btn-secondary {
+        border-radius: 5px;
+    }
+
+    .form-control {
+        border-radius: 5px;
+    }
+
+    .form-check-label {
+        margin-left: 5px;
+    }
+
+    .d-flex {
+        margin-top: 20px;
+    }
+
+    .text-danger {
+        color: red;
+        margin-top: 10px;
+    }
+</style>

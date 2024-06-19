@@ -1,0 +1,107 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebBanHang
+build_property.RootNamespace = WebBanHang
+build_property.ProjectDir = C:\Users\Lenovo\source\repos\Project\WebBanHang\WebBanHang\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Lenovo\source\repos\Project\WebBanHang\WebBanHang
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/Pages/AddUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkVXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/Pages/AuthRedirect.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFJlZGlyZWN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/Pages/CreateInvoice.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlSW52b2ljZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/Pages/CreateSanPham.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlU2FuUGhhbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/Pages/DashBoard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaEJvYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/Pages/EditUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFVzZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/Pages/InvoiceDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52b2ljZURldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/Pages/InvoiceList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52b2ljZUxpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/Pages/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/Pages/SanPhamList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FuUGhhbUxpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/Pages/UserList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckxpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/Pages/ViewSanPham.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1NhblBoYW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-aogdng6mc8
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-65r2sbf870
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WebBanHang/WebBanHang/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

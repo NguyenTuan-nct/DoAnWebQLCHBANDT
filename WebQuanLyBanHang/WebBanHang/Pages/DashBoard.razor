@@ -1,0 +1,220 @@
+﻿@page "/dashboard"
+@inject ApplicationDbContext DbContext
+@inject IJSRuntime JSRuntime
+@inject NavigationManager Navigation
+@inject AuthService AuthService
+@using MudBlazor
+
+
+<PageTitle>Tổng Quan</PageTitle>
+
+@* <div class="video-background">
+    <video autoplay loop muted playsinline>
+        <source src="videos/smartcity.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div> *@
+
+<h1 class="my-4">Thông Tin Chung</h1>
+
+<div class="row">
+    <div class="col-lg-4 col-md-6 mb-4">
+        <NavLink href="/sanpham-list" class="card bg-primary text-white text-decoration-none">
+            <div class="card-body d-flex align-items-center justify-content-between">
+                <div>
+                    <h5 class="card-title fw-bold mb-3">Sản phẩm</h5>
+                    <p class="card-text fw-bold fs-10">@productCount</p>
+                </div>
+                <i class="fas fa-3x fa-box"></i>
+            </div>
+        </NavLink>
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card bg-success text-white">
+            <div class="card-body d-flex align-items-center justify-content-between">
+                <div>
+                    <h5 class="card-title fw-bold mb-3">Người Quản Trị</h5>
+                    <p class="card-text fw-bold fs-10">@userCount</p>
+                </div>
+                <i class="fas fa-3x fa-users"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card bg-warning text-white">
+            <div class="card-body d-flex align-items-center justify-content-between">
+                <div>
+                    <h5 class="card-title fw-bold mb-3">Hóa đơn</h5>
+                    <p class="card-text fw-bold fs-10">@invoiceCount</p>
+                </div>
+                <i class="fas fa-3x fa-file-invoice"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="carousel-container">
+    <MudCarousel Class="mud-width-full" Style="height: 400px; width: 100%;" ShowArrows="@arrows" ShowBullets="@bullets"
+                    EnableSwipeGesture="@enableSwipeGesture" AutoCycle="@autocycle" TData="object">
+        <MudCarouselItem Transition="transition">
+            <div class="d-flex" style="height: 100%; width: 100%;">
+                <img src="images/nenmud3.jpg" alt="Image 1" class="mx-auto my-auto" style="height: 588px; width: 1600px;" />
+            </div>
+        </MudCarouselItem>
+        <MudCarouselItem Transition="transition">
+            <div class="d-flex" style="height: 100%; width: 100%;">
+                <img src="images/ssglxy.jpg" alt="Image 2" class="mx-auto my-auto" style="height: 588px; width: 1600px;" />
+            </div>
+        </MudCarouselItem>
+        <MudCarouselItem Transition="transition">
+            <div class="d-flex" style="height: 100%; width: 100%;">
+                <img src="images/2.jpeg" alt="Image 3" class="mx-auto my-auto" style="height: 588px; width: 1600px;" />
+            </div>
+        </MudCarouselItem>
+    </MudCarousel>
+</div>
+@*
+<h1 class ="my-4">Hướng dẫn phân quyền</h1>
+<h3>- Cấp 1 nắm toàn quyền</h3>
+<h3>- Cấp 2 được thêm, sửa và xóa thông tin cấp bé hơn</h3>
+<h3>- Cấp 3, 4 tương tự cấp 2</h3>
+<h3>- Cấp 5 chỉ được xem, không có quyền thêm, sửa và xóa trên danh sách quản trị</h3>*@
+@code {
+    private int productCount;
+    private int userCount;
+    private int invoiceCount;
+
+
+    private Transition transition = Transition.Slide;
+    private bool arrows = true;
+    private bool bullets = false;
+    private bool enableSwipeGesture = true;
+    private bool autocycle = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (!AuthService.IsAuthenticated())
+        {
+            Navigation.NavigateTo("/");
+        }
+        productCount = await DbContext.SanPhams.CountAsync();
+        userCount = await DbContext.NguoiDungs.CountAsync();
+        invoiceCount = await DbContext.HoaDons.CountAsync();
+    }
+}
+
+<style>
+/* 
+    .video-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+    }
+
+        .video-background video {
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-size: cover;
+        } */
+
+    h1.my-4 {
+        color: #333;
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        position: relative;
+    }
+
+        h1.my-4::after {
+            content: '';
+            display: block;
+            width: 200px;
+            height: 4px;
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
+
+    .card {
+        border: none;
+        border-radius: 10px;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        overflow: hidden;
+        position: relative;
+    }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+
+    .card-body .card-title,
+    .card-body .card-text,
+    .card-body i {
+        color: inherit;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .card:hover .card-title,
+    .card:hover .card-text,
+    .card:hover i {
+        color: inherit; /* Giữ nguyên màu khi hover */
+    }
+
+    .card-body {
+        padding: 2rem;
+    }
+
+        .card-body .card-title {
+            font-size: 1.5rem;
+        }
+
+        .card-body .card-text {
+            font-size: 2rem;
+            margin-top: 10px;
+        }
+
+    .card .fas {
+        opacity: 0.2;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .bg-primary {
+        background: linear-gradient(135deg, #007bff, #6610f2);
+    }
+
+    .bg-success {
+        background: linear-gradient(135deg, #28a745, #20c997);
+    }
+
+    .bg-warning {
+        background: linear-gradient(135deg, #ffc107, #fd7e14);
+    }
+
+    h1, h2 {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        color: #555;
+        margin-top: 20px;
+    }
+</style>

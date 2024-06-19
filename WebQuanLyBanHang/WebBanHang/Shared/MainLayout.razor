@@ -1,0 +1,235 @@
+﻿@using MudBlazor
+@inherits LayoutComponentBase
+@inject AuthService AuthService
+@inject NavigationManager Navigation
+@inject IJSRuntime JSRuntime
+<PageTitle>WebBanHang</PageTitle>
+
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<div class="video-background">
+    <video autoplay loop muted playsinline>
+        <source src="videos/nentrang2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+<div class="page">
+    <main>
+        <div class="top-row px-4" id="topbar">
+            <div class="topbar-container">
+                <div class="title-container">
+                    <span class="text-black we">Tuan Nguyen Store - Admin</span>
+                </div>
+                <div class="nav-links">
+                    @if (AuthService.IsAuthenticated())
+                    {
+                        <NavLink class="nav-link nav-link-black" href="">
+                            <span class="oi oi-home" aria-hidden="true"></span> Trang chủ
+                        </NavLink>
+                        <NavLink class="nav-link nav-link-black" href="dashboard" Match="NavLinkMatch.All">
+                            <span class="bi bi-list" aria-hidden="true"></span> Tổng quan
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+                        </NavLink>
+                        <NavLink class="nav-link nav-link-black" href="sanpham-list">
+                            <span class="oi oi-plus" aria-hidden="true"></span> Sản phẩm
+                        </NavLink>
+                        <NavLink class="nav-link nav-link-black" href="nguoidung-list">
+                            <span class="oi oi-people" aria-hidden="true"></span> Quản Trị
+                        </NavLink>
+                        <NavLink class="nav-link nav-link-black" href="hoa-don-list">
+                            <span class="oi oi-document" aria-hidden="true"></span> Hóa đơn
+                        </NavLink>
+                    }
+                </div>
+                <div>
+                    @if (AuthService.IsAuthenticated())
+                    {
+                        <span class="text-black we">Xin chào, @AuthService.GetUserName()!</span>
+                        <MudButton Variant="Variant.Outlined" class="mauchu" @onclick="Logout">Đăng xuất</MudButton>
+                    }
+                    else
+                    {
+                      <div class="dnhap">
+                        <MudButton Variant="Variant.Outlined" class="mauchu" @onclick="NavigateToLogin">Đăng nhập</MudButton>
+                      </div>
+                    }
+                </div>
+            </div>
+        </div>
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+<style>
+    .text-black{
+        color: wheat !important;
+        padding-right: 2mm;
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Căn giữa các liên kết */
+        flex-grow: 1;
+        padding-right: 6rem;
+    }
+    .mauchu {
+        color: wheat !important;
+        font-weight: bold; /* Làm đậm chữ */
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Đặt font chữ mềm mại */
+    }
+
+    .dnhap{
+        /*margin-right: 1.5rem;*/
+        padding-right: 2mm;
+    }
+
+    .video-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+    }
+
+        .video-background video {
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-size: cover;
+        }
+
+    .we {
+        color: wheat !important;
+        font-weight: bold; /* Làm đậm chữ */
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Đặt font chữ mềm mại */
+        text-align: left;
+    }
+
+    .nav-link-black {
+        color: wheat !important; /* Đặt màu chữ là màu lúa mì và thêm !important */
+        margin-right: 15px;
+        padding: 10px;
+        text-decoration: none; /* Bỏ gạch chân mặc định của liên kết */
+        transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền mượt mà trong 0.3 giây */
+    }
+
+        .nav-link-black:hover {
+            background-color: lightyellow; /* Đặt màu nền khi di chuột qua */
+            color : black !important;
+        }
+
+    .top-row {
+        width: 100% !important;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FFFFFF;
+        padding: 10px;
+        /*margin-bottom: 20px; /* Thêm khoảng cách để đẩy nội dung xuống dưới */
+    }
+
+    .topbar-container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+
+    .title-container {
+        flex-grow: 1;
+        text-align: left;
+        padding-left: 2mm;
+    }
+
+    .btn-white {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-white:hover {
+            background-color: #218838;
+        }
+
+    .carousel-container {
+        margin-top: 20px; /* Điều chỉnh khi cần */
+        width: 100%;
+    }
+
+    .item-bg {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .carousel-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px; /* Phù hợp với chiều cao của carousel */
+        width: 100%;
+    }
+
+    .item-bg {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 200px;
+        width: 600px;
+    }
+</style>
+
+@code {
+    private UserLoginModel user = new UserLoginModel();
+    private string ErrorMessage;
+    private Transition transition = Transition.Slide;
+
+    private async Task Logout()
+    {
+        await AuthService.Logout();
+        Navigation.NavigateTo("/");
+    }
+
+    private void NavigateToLogin()
+    {
+        Navigation.NavigateTo("/login");
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        try
+        {
+            await AuthService.Login(user);
+            await JSRuntime.InvokeVoidAsync("scrollToBottom");
+            Navigation.NavigateTo("/");
+        }
+        catch (Exception ex)
+        {
+            ErrorMessage = $"An error occurred: {ex.Message}";
+        }
+    }
+
+    private void Cancel()
+    {
+        Navigation.NavigateTo("/");
+    }
+}
