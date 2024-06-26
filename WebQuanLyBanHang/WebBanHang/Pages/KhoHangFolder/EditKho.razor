@@ -1,0 +1,107 @@
+﻿@page "/edit-kho/{KhoHangId:int}"
+@inject ApplicationDbContext DbContext
+@inject NavigationManager Navigation
+
+<h1 class="text-center my-4">Chỉnh Sửa Kho Hàng</h1>
+
+<div class="container">
+    <div class="card shadow-sm mb-3">
+        <div class="card-body">
+            @if (isLoading)
+            {
+                <p>Loading...</p>
+            }
+            else if (KhoHang == null)
+            {
+                <p>Kho hàng không tồn tại.</p>
+            }
+            else
+            {
+                <EditForm Model="@KhoHang" OnValidSubmit="HandleValidSubmit">
+                    <DataAnnotationsValidator />
+                    <ValidationSummary class="text-danger" />
+
+                    <div class="form-group mt-3">
+                        <label for="soLuongTon">Mã Kho</label>
+                        <InputNumber id="khoHangId" class="form-control" @bind-Value="KhoHang.KhoHangId" disabled />
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="tenKho">Tên Kho</label>
+                        <InputText id="tenKho" class="form-control" @bind-Value="KhoHang.TenKho" />
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="diaChiKho">Địa Chỉ Kho</label>
+                        <InputText id="diaChiKho" class="form-control" @bind-Value="KhoHang.DiaChiKho" />
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="soLuongTon">Số Lượng Tồn</label>
+                        <InputNumber id="soLuongTon" class="form-control" @bind-Value="TongSoLuongTon" disabled />
+                    </div>
+                    <br>
+                    <div class="d-flex justify-content-between">
+                        <button type="submit" class="btn btn-primary">Cập Nhật</button>
+                        <button type="button" class="btn btn-secondary" @onclick="Cancel">Trở Về</button>
+                    </div>
+                </EditForm>
+
+                <h2 class="mt-5">Danh Sách Sản Phẩm Trong Kho</h2>
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered table-dark-borders">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th class="text-center">Tên Sản Phẩm</th>
+                                <th class="text-center">Loại Sản Phẩm</th>
+                                <th class="text-center">Giá Sản Phẩm</th>
+                                <th class="text-center">Ngày Nhập</th>
+                                <th class="text-center">Số Lượng Tồn</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var sanPham in SanPhams)
+                            {
+                                <tr>
+                                    <td class="table-middle">@sanPham.TenSanPham</td>
+                                    <td class="table-middle text-center">@sanPham.LoaiSanPham</td>
+                                    <td class="table-middle text-center">@sanPham.GiaSanPham</td>
+                                    <td class="table-middle text-center">@sanPham.NgayNhap.ToShortDateString()</td>
+                                    <td class="table-middle text-center">@sanPham.TonKho</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter] public int KhoHangId { get; set; }
+    private KhoHang KhoHang;
+    private List<SanPham> SanPhams;
+    private bool isLoading = true;
+    private int TongSoLuongTon = 0;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        KhoHang = await DbContext.KhoHangs.FindAsync(KhoHangId);
+        if (KhoHang != null)
+        {
+            SanPhams = await DbContext.SanPhams.Where(sp => sp.KhoHangId == KhoHangId).ToListAsync();
+            TongSoLuongTon = SanPhams.Sum(sp => sp.TonKho);
+        }
+        isLoading = false;
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        DbContext.KhoHangs.Update(KhoHang);
+        await DbContext.SaveChangesAsync();
+        Navigation.NavigateTo("/danhsach-kho");
+    }
+
+    private void Cancel()
+    {
+        Navigation.NavigateTo("/danhsach-kho");
+    }
+}

@@ -15,6 +15,8 @@ namespace NguyenTuanK55.Models
         public DateTime NgayNhap { get; set; }
         public int TonKho { get; set; }
         public string? MoTa { get; set; }
+        public int KhoHangId { get; set; }
+        public KhoHang KhoHang { get; set; }
         public ICollection<ChiTietHoaDon> ChiTietHoaDons { get; set; }
     }
 }

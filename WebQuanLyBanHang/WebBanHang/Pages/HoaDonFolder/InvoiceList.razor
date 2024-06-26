@@ -1,0 +1,203 @@
+﻿@page "/hoa-don-list"
+@inject ApplicationDbContext DbContext
+@inject NavigationManager Navigation
+@inject Microsoft.JSInterop.IJSRuntime JSRuntime
+<AuthRedirect />
+
+<h1 class="text-center my-4">Danh Sách Hóa Đơn</h1>
+<button class="btn btn-success mb-3" @onclick="CreateInvoice"><i class="fas fa-plus"></i> Thêm Hóa Đơn</button>
+
+<div class="video-background">
+    <video autoplay loop muted playsinline>
+        <source src="videos/nentrang2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+@if (isLoading)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered table-dark-borders">
+            <thead class="thead-dark">
+                <tr>
+                    <th>ID Hóa Đơn</th>
+                    <th>Ngày Lập</th>
+                    <th>Người Lập</th>
+                    <th>Tên Khách Hàng</th>
+                    <th>Số Điện Thoại</th>
+                    <th>Hành Động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var hoaDon in HoaDons)
+                {
+                    <tr>
+                        <td class="table-middle">@hoaDon.HoaDonId</td>
+                        <td class="table-middle">@hoaDon.NgayLap.ToShortDateString()</td>
+                        <td class="table-middle">@hoaDon.NguoiDung.HoTen</td>
+                        <td class="table-middle">@hoaDon.KhachHang.TenKhachHang</td>
+                        <td class="table-middle">@hoaDon.KhachHang.SoDienThoai</td>
+                        <td class="table-middle text-center">
+                            <button class="btn btn-sm btn-primary mr-1" @onclick="() => ViewInvoice(hoaDon.HoaDonId)">Xem</button>
+                            @*<button class="btn btn-sm btn-danger" @onclick="() => ConfirmDeleteInvoice(hoaDon.HoaDonId)">Xóa</button> *@
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+@code {
+    private List<HoaDon> HoaDons;
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        HoaDons = await DbContext.HoaDons
+                                .Include(h => h.NguoiDung)
+                                .Include(h => h.KhachHang)
+                                .ToListAsync();
+        isLoading = false;
+    }
+
+    private void CreateInvoice()
+    {
+        Navigation.NavigateTo("/create-hoa-don");
+    }
+
+    private void ViewInvoice(int hoaDonId)
+    {
+        Navigation.NavigateTo($"/view-hoa-don/{hoaDonId}");
+    }
+
+    private async Task ConfirmDeleteInvoice(int hoaDonId)
+    {
+        if (await JSRuntime.InvokeAsync<bool>("confirm", "Bạn có chắc chắn muốn xóa hóa đơn này không?"))
+        {
+            var hoaDon = await DbContext.HoaDons.FindAsync(hoaDonId);
+            if (hoaDon != null)
+            {
+                DbContext.HoaDons.Remove(hoaDon);
+                await DbContext.SaveChangesAsync();
+                HoaDons.Remove(hoaDon);
+            }
+        }
+    }
+}
+
+<style>
+    .my-4 {
+        color: black;
+    }
+
+    h1.my-4::after {
+        content: '';
+        display: block;
+        width: 200px;
+        height: 4px;
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        margin: 10px auto 0;
+        border-radius: 2px;
+    }
+
+    h1.my-4 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    .video-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+    }
+
+        .video-background video {
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-size: cover;
+            filter: blur(3px);
+        }
+
+    .btn-primary {
+        border-radius: 5px;
+    }
+
+    .btn-danger {
+        border-radius: 5px;
+    }
+
+    .table-responsive {
+        margin-top: 20px;
+    }
+
+    .table {
+        border-radius: 5px;
+        overflow: hidden;
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+
+        .table tbody tr {
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+            .table tbody tr:hover {
+                background-color: rgba(0, 204, 153, 0.9); /* Đổi màu nền đậm hơn */
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6); /* Tăng hiệu ứng bóng đổ */
+                cursor: pointer;
+            }
+
+
+    .thead-dark th {
+        background-color: #00A3A3;
+        color: white;
+        border-color: black !important;
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+
+    .table-striped tbody tr:nth-of-type(even) {
+        background-color: rgba(255, 255, 255, 0.6); /*Chẵn*/
+    }
+
+    .table-bordered {
+        border: 1px solid black; /* Đổi màu viền bảng thành màu đen */
+    }
+
+        .table-bordered th,
+        .table-bordered td {
+            border: 1px solid black !important; /* Đổi màu viền cột thành màu đen */
+        }
+
+    .table-middle {
+        vertical-align: middle !important;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .mr-1 {
+        margin-right: 5px;
+    }
+</style>

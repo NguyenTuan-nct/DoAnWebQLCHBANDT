@@ -232,3 +232,4 @@ C:\Users\Lenovo\source\repos\Project\WEBQLBANDT\WebQuanLyBanHang\WebBanHang\obj\
 C:\Users\Lenovo\source\repos\Project\WEBQLBANDT\WebQuanLyBanHang\WebBanHang\obj\Debug\net6.0\NguyenTuanK55.pdb
 C:\Users\Lenovo\source\repos\Project\WEBQLBANDT\WebQuanLyBanHang\WebBanHang\obj\Debug\net6.0\NguyenTuanK55.genruntimeconfig.cache
 C:\Users\Lenovo\source\repos\Project\WEBQLBANDT\WebQuanLyBanHang\WebBanHang\obj\Debug\net6.0\ref\NguyenTuanK55.dll
+C:\Users\Lenovo\source\repos\Project\WEBQLBANDT\WebQuanLyBanHang\WebBanHang\obj\Debug\net6.0\NguyenTuanK55.sourcelink.json

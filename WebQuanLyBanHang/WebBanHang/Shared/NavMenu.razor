@@ -1,4 +1,4 @@
-﻿@inject AuthService AuthService
+﻿@* @inject AuthService AuthService
 
 <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
     <nav class="nav flex-column">
@@ -21,10 +21,10 @@
 
         }
     </nav>
-</div>
+</div> *@
 
 <style>
-    .nav-link-black {
+/*     .nav-link-black {
         color: black;
         text-decoration: none;
         padding: 10px;
@@ -42,36 +42,36 @@
     }
 
     .nav {
-        background-color: #ffffff; /* Optional: background color for the nav */
-        padding: 10px; /* Optional: padding for better spacing */
-    }
+        background-color: #ffffff; /* Optional: background color for the nav
+        padding: 10px; Optional: padding for better spacing */
+    } 
 </style>
 
 @code {
-    private bool collapseNavMenu = true;
-    private bool isLoggedIn = false;
+    // private bool collapseNavMenu = true;
+    // private bool isLoggedIn = false;
 
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+    // private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
-    protected override void OnInitialized()
-    {
-        isLoggedIn = AuthService.IsAuthenticated();
-        AuthService.OnChange += UpdateAuthState;
-    }
+    // protected override void OnInitialized()
+    // {
+    //     isLoggedIn = AuthService.IsAuthenticated();
+    //     AuthService.OnChange += UpdateAuthState;
+    // }
 
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
+    // private void ToggleNavMenu()
+    // {
+    //     collapseNavMenu = !collapseNavMenu;
+    // }
 
-    private void UpdateAuthState()
-    {
-        isLoggedIn = AuthService.IsAuthenticated();
-        StateHasChanged();
-    }
+    // private void UpdateAuthState()
+    // {
+    //     isLoggedIn = AuthService.IsAuthenticated();
+    //     StateHasChanged();
+    // }
 
-    public void Dispose()
-    {
-        AuthService.OnChange -= UpdateAuthState;
-    }
+    // public void Dispose()
+    // {
+    //     AuthService.OnChange -= UpdateAuthState;
+    // }
 }

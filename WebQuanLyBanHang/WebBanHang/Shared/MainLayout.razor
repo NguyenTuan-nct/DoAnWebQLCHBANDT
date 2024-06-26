@@ -3,7 +3,7 @@
 @inject AuthService AuthService
 @inject NavigationManager Navigation
 @inject IJSRuntime JSRuntime
-<PageTitle>WebBanHang</PageTitle>
+<PageTitle>Quản Lý Cửa Hàng</PageTitle>
 
 <MudThemeProvider />
 <MudDialogProvider />
@@ -14,7 +14,7 @@
         <source src="videos/nentrang2.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-</div>
+</div> 
 
 <div class="page">
     <main>
@@ -26,21 +26,25 @@
                 <div class="nav-links">
                     @if (AuthService.IsAuthenticated())
                     {
-                        <NavLink class="nav-link nav-link-black" href="">
-                            <span class="oi oi-home" aria-hidden="true"></span> Trang chủ
-                        </NavLink>
                         <NavLink class="nav-link nav-link-black" href="dashboard" Match="NavLinkMatch.All">
-                            <span class="bi bi-list" aria-hidden="true"></span> Tổng quan
-                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
-                        </NavLink>
-                        <NavLink class="nav-link nav-link-black" href="sanpham-list">
-                            <span class="oi oi-plus" aria-hidden="true"></span> Sản phẩm
+                            <span class="oi oi-home" aria-hidden="true"></span> Trang chủ
+                            @*<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">*@
                         </NavLink>
                         <NavLink class="nav-link nav-link-black" href="nguoidung-list">
-                            <span class="oi oi-people" aria-hidden="true"></span> Quản Trị
+                            <span class="fas fa-user-cog" aria-hidden="true"></span> Quản Trị
+                        </NavLink>
+                        <NavLink class="nav-link nav-link-black" href="customer-list">
+                            <span class="oi oi-people" aria-hidden="true"></span> Khách Hàng
+                        </NavLink>
+
+                        <NavLink class="nav-link nav-link-black" href="sanpham-list">
+                            <span class="fa fa-box" aria-hidden="true"></span> Sản phẩm
                         </NavLink>
                         <NavLink class="nav-link nav-link-black" href="hoa-don-list">
                             <span class="oi oi-document" aria-hidden="true"></span> Hóa đơn
+                        </NavLink>
+                        <NavLink class="nav-link nav-link-black" href="danhsach-kho">
+                            <span class="fa fa-warehouse" aria-hidden="true"></span> Kho Hàng
                         </NavLink>
                     }
                 </div>
@@ -66,6 +70,7 @@
 </div>
 
 <style>
+    /*Màu nền topbar tại MainLayout.css*/
     .text-black{
         color: wheat !important;
         padding-right: 2mm;
@@ -75,9 +80,11 @@
         display: flex;
         align-items: center;
         justify-content: center; /* Căn giữa các liên kết */
-        flex-grow: 1;
-        padding-right: 6rem;
+        flex-grow: 1; 
+        padding-right: 3rem;
+        /*gap: 1rem; /*Khoảng cách giữa các nút*/
     }
+
     .mauchu {
         color: wheat !important;
         font-weight: bold; /* Làm đậm chữ */
@@ -109,7 +116,7 @@
             left: 50%;
             transform: translate(-50%, -50%);
             background-size: cover;
-        }
+        } 
 
     .we {
         color: wheat !important;
@@ -121,14 +128,17 @@
     .nav-link-black {
         color: wheat !important; /* Đặt màu chữ là màu lúa mì và thêm !important */
         margin-right: 15px;
-        padding: 10px;
+        padding: 5px;
         text-decoration: none; /* Bỏ gạch chân mặc định của liên kết */
         transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền mượt mà trong 0.3 giây */
     }
 
         .nav-link-black:hover {
+            border-radius: 20px; /* Làm tròn góc khi di chuột đến */
             background-color: lightyellow; /* Đặt màu nền khi di chuột qua */
             color : black !important;
+            /*background-color: rgba(0, 0, 0, 0.1);*/
+            /*transform: translateY(-3px);*/
         }
 
     .top-row {
@@ -195,7 +205,7 @@
         background-position: center;
         height: 200px;
         width: 600px;
-    }
+  }
 </style>
 
 @code {

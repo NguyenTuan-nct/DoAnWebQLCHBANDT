@@ -1,0 +1,54 @@
+﻿@page "/add-kho"
+@inject ApplicationDbContext DbContext
+@inject NavigationManager Navigation
+
+<h1 class="text-center my-4">Thêm Kho Hàng</h1>
+
+<div class="container">
+    <div class="card shadow-sm mb-3">
+        <div class="card-body">
+            <EditForm Model="@KhoHang" OnValidSubmit="HandleValidSubmit">
+                <DataAnnotationsValidator />
+                <ValidationSummary class="text-danger" />
+
+                <div class="form-group mt-3">
+                    <label for="soLuongTon">Mã Kho</label>
+                    <InputNumber id="soLuongTon" class="form-control" @bind-Value="KhoHang.KhoHangId" disabled />
+                </div>
+                <div class="form-group mt-3">
+                    <label for="tenKho">Tên Kho</label>
+                    <InputText id="tenKho" class="form-control" @bind-Value="KhoHang.TenKho" />
+                </div>
+                <div class="form-group mt-3">
+                    <label for="diaChiKho">Địa Chỉ Kho</label>
+                    <InputText id="diaChiKho" class="form-control" @bind-Value="KhoHang.DiaChiKho" />
+                </div>
+                <div class="form-group mt-3">
+                    <label for="soLuongTon">Số Lượng Tồn</label>
+                    <InputNumber id="soLuongTon" class="form-control" @bind-Value="KhoHang.SoLuongTon" disabled />
+                </div> 
+                <br>
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                    <button type="button" class="btn btn-secondary" @onclick="Cancel">Hủy</button>
+                </div>
+            </EditForm>
+        </div>
+    </div>
+</div>
+
+@code {
+    private KhoHang KhoHang = new KhoHang();
+
+    private async Task HandleValidSubmit()
+    {
+        DbContext.KhoHangs.Add(KhoHang);
+        await DbContext.SaveChangesAsync();
+        Navigation.NavigateTo("/danhsach-kho");
+    }
+
+    private void Cancel()
+    {
+        Navigation.NavigateTo("/danhsach-kho");
+    }
+}

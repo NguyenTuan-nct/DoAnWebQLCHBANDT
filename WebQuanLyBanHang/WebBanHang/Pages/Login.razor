@@ -1,6 +1,6 @@
 ﻿@page "/login"
-@using MudBlazor
-@using NguyenTuanK55.Models
+@* @using MudBlazor
+@using NguyenTuanK55.Models *@
 @inject NavigationManager Navigation
 @inject AuthService AuthService
 
@@ -136,7 +136,7 @@
                     <InputText id="password" type="password" class="form-control" @bind-Value="user.Password" />
                 </div>
 
-                <button type="submit" class="btn btn-primary">Đăng nhập</button>
+                <button type="submit" class="btn btn-primary" disabled="@isSubmitting">@buttonText</button>
                 <button type="button" class="btn btn-secondary" @onclick="Cancel">Trở về</button>
             </EditForm>
 
@@ -151,9 +151,13 @@
 @code {
     private UserLoginModel user = new UserLoginModel();
     private string ErrorMessage;
+    private bool isSubmitting = false;
+    private string buttonText = "Đăng nhập";
 
     private async Task HandleValidSubmit()
     {
+        isSubmitting = true;
+        buttonText = "Loading...";
         try
         {
             await AuthService.Login(user);
@@ -162,6 +166,8 @@
         catch (Exception ex)
         {
             ErrorMessage = $"An error occurred: {ex.Message}";
+            isSubmitting = false;
+            buttonText = "Đăng nhập";
         }
     }
 
@@ -169,4 +175,9 @@
     {
         Navigation.NavigateTo("/");
     }
+
+    /*Biến isSubmitting được sử dụng để theo dõi trạng thái của việc gửi biểu mẫu.
+      Biến buttonText để thay đổi nội dung của nút.
+      Khi người dùng nhấn nút "Đăng nhập", isSubmitting được đặt thành true và buttonText thành "Loading...".
+      Nếu có lỗi xảy ra trong quá trình đăng nhập, isSubmitting được đặt lại thành false và buttonText trở lại "Đăng nhập".*/
 }

@@ -1,0 +1,75 @@
+﻿@page "/customer-edit/{KhachHangId:int}"
+@* @using Microsoft.EntityFrameworkCore
+@using NguyenTuanK55.Models *@
+@inject ApplicationDbContext DbContext
+@inject NavigationManager Navigation
+<AuthRedirect />
+
+<h1 class="text-center my-4">Sửa Khách Hàng</h1>
+
+<div class="container">
+    <div class="card shadow-sm mb-3">
+        <div class="card-body">
+            <EditForm Model="@KhachHang" OnValidSubmit="HandleValidSubmit">
+                <DataAnnotationsValidator />
+                <ValidationSummary class="text-danger" />
+
+                <div class="form-group">
+                    <label for="hoTen">Họ Tên</label>
+                    <InputText id="hoTen" class="form-control" @bind-Value="KhachHang.TenKhachHang" />
+                </div>
+                <div class="form-group mt-3">
+                    <label for="ngaySinh">Ngày Sinh</label>
+                    <InputDate id="ngaySinh" class="form-control" @bind-Value="KhachHang.NgaySinh" />
+                </div>
+                <div class="form-group mt-3">
+                    <label for="gioiTinh">Giới Tính</label>
+                    <InputSelect id="gioiTinh" class="form-control" @bind-Value="KhachHang.GioiTinh">
+                        <option value="true">Nam</option>
+                        <option value="false">Nữ</option>
+                    </InputSelect>
+                </div>
+                <div class="form-group mt-3">
+                    <label for="diaChi">Địa Chỉ</label>
+                    <InputText id="diaChi" class="form-control" @bind-Value="KhachHang.DiaChi" />
+                </div>
+                <div class="form-group mt-3">
+                    <label for="dienThoai">Số Điện Thoại</label>
+                    <InputText id="dienThoai" class="form-control" @bind-Value="KhachHang.SoDienThoai" />
+                </div>
+                <div class="form-group mt-3">
+                    <label for="email">Email</label>
+                    <InputText id="email" class="form-control" @bind-Value="KhachHang.Email" />
+                </div>
+
+                <div class="d-flex justify-content-between mt-4">
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                    <button type="button" class="btn btn-secondary" @onclick="Cancel">Hủy</button>
+                </div>
+            </EditForm>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public int KhachHangId { get; set; }
+    private KhachHang KhachHang = new KhachHang();
+
+    protected override async Task OnInitializedAsync()
+    {
+        KhachHang = await DbContext.KhachHangs.FindAsync(KhachHangId);
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        DbContext.Entry(KhachHang).State = EntityState.Modified;
+        await DbContext.SaveChangesAsync();
+        Navigation.NavigateTo("/customer-list");
+    }
+
+    private void Cancel()
+    {
+        Navigation.NavigateTo("/customer-list");
+    }
+}

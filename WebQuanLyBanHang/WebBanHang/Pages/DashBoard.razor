@@ -3,64 +3,89 @@
 @inject IJSRuntime JSRuntime
 @inject NavigationManager Navigation
 @inject AuthService AuthService
-@using MudBlazor
 
-
-<PageTitle>Tổng Quan</PageTitle>
-
-@* <div class="video-background">
+<div class="video-background">
     <video autoplay loop muted playsinline>
-        <source src="videos/smartcity.mp4" type="video/mp4">
+        <source src="videos/nentrang2.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-</div> *@
+</div>
 
 <h1 class="my-4">Thông Tin Chung</h1>
 
-<div class="row">
-    <div class="col-lg-4 col-md-6 mb-4">
-        <NavLink href="/sanpham-list" class="card bg-primary text-white text-decoration-none">
+<div class="row justify-content-center">
+
+    <div class="custom-col mb-4">
+        <NavLink href="/nguoidung-list" class="card bg-primary text-white text-decoration-none">
             <div class="card-body d-flex align-items-center justify-content-between">
                 <div>
-                    <h5 class="card-title fw-bold mb-3">Sản phẩm</h5>
-                    <p class="card-text fw-bold fs-10">@productCount</p>
+                    <h5 class="card-title fw-bold mb-3">Tổng Quản Trị</h5>
+                    <p class="card-text fw-bold fs-10">@userCount</p>
+                </div>
+                <i class="fas fa-3x fa-users-cog"></i>
+            </div>
+        </NavLink>
+    </div>
+
+    <div class="custom-col mb-4">
+        <NavLink href="/customer-list" class="card bg-success text-white text-decoration-none">
+            <div class="card-body d-flex align-items-center justify-content-between">
+                <div>
+                    <h5 class="card-title fw-bold mb-3">Tổng Khách Hàng</h5>
+                    <p class="card-text fw-bold fs-10">@customerCount</p>
+                </div>
+                <i class="bi bi-person-lines-fill"></i>
+                <i class="fas fa-3x fa-users"></i>
+            </div>
+        </NavLink>
+    </div>
+
+    <div class="custom-col mb-4">
+        <NavLink href="/sanpham-list" class="card bg-warning text-white text-decoration-none">
+            <div class="card-body d-flex align-items-center justify-content-between">
+                <div>
+                    <h5 class="card-title fw-bold mb-3">Tổng Sản Phẩm</h5>
+                    <p class="card-text fw-bold fs-10">@totalProductQuantity</p>
                 </div>
                 <i class="fas fa-3x fa-box"></i>
             </div>
         </NavLink>
     </div>
 
-    <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card bg-success text-white">
+    <div class="custom-col mb-4">
+        <NavLink href="/hoa-don-list" class="card bg-hoadon text-white text-decoration-none">
             <div class="card-body d-flex align-items-center justify-content-between">
                 <div>
-                    <h5 class="card-title fw-bold mb-3">Người Quản Trị</h5>
-                    <p class="card-text fw-bold fs-10">@userCount</p>
-                </div>
-                <i class="fas fa-3x fa-users"></i>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card bg-warning text-white">
-            <div class="card-body d-flex align-items-center justify-content-between">
-                <div>
-                    <h5 class="card-title fw-bold mb-3">Hóa đơn</h5>
+                    <h5 class="card-title fw-bold mb-3">Tổng Hóa Đơn</h5>
                     <p class="card-text fw-bold fs-10">@invoiceCount</p>
                 </div>
                 <i class="fas fa-3x fa-file-invoice"></i>
             </div>
-        </div>
+        </NavLink>
     </div>
+
+    <div class="custom-col mb-4">
+        <NavLink href="/danhsach-kho" class="card bg-khohang text-white text-decoration-none">
+            <div class="card-body d-flex align-items-center justify-content-between">
+                <div>
+                    <h5 class="card-title fw-bold mb-3">Tổng Kho Hàng</h5>
+                    <p class="card-text fw-bold fs-10">@KhoCount</p>
+                </div>
+                <i class="fas fa-3x fa-warehouse"></i>
+            </div>
+        </NavLink>
+    </div>
+
 </div>
+
 <br>
 <br>
 <br>
 <br>
+
 <div class="carousel-container">
     <MudCarousel Class="mud-width-full" Style="height: 400px; width: 100%;" ShowArrows="@arrows" ShowBullets="@bullets"
-                    EnableSwipeGesture="@enableSwipeGesture" AutoCycle="@autocycle" TData="object">
+                 EnableSwipeGesture="@enableSwipeGesture" AutoCycle="@autocycle" TData="object">
         <MudCarouselItem Transition="transition">
             <div class="d-flex" style="height: 100%; width: 100%;">
                 <img src="images/nenmud3.jpg" alt="Image 1" class="mx-auto my-auto" style="height: 588px; width: 1600px;" />
@@ -78,21 +103,17 @@
         </MudCarouselItem>
     </MudCarousel>
 </div>
-@*
-<h1 class ="my-4">Hướng dẫn phân quyền</h1>
-<h3>- Cấp 1 nắm toàn quyền</h3>
-<h3>- Cấp 2 được thêm, sửa và xóa thông tin cấp bé hơn</h3>
-<h3>- Cấp 3, 4 tương tự cấp 2</h3>
-<h3>- Cấp 5 chỉ được xem, không có quyền thêm, sửa và xóa trên danh sách quản trị</h3>*@
+
 @code {
-    private int productCount;
+    private int totalProductQuantity;
     private int userCount;
     private int invoiceCount;
-
+    private int KhoCount;
+    private int customerCount;
 
     private Transition transition = Transition.Slide;
     private bool arrows = true;
-    private bool bullets = false;
+    private bool bullets = true;
     private bool enableSwipeGesture = true;
     private bool autocycle = true;
 
@@ -102,14 +123,17 @@
         {
             Navigation.NavigateTo("/");
         }
-        productCount = await DbContext.SanPhams.CountAsync();
+
+        // Tính tổng số lượng sản phẩm từ tất cả các kho
+        totalProductQuantity = await DbContext.SanPhams.SumAsync(sp => sp.TonKho);
         userCount = await DbContext.NguoiDungs.CountAsync();
         invoiceCount = await DbContext.HoaDons.CountAsync();
+        KhoCount = await DbContext.KhoHangs.CountAsync();
+        customerCount = await DbContext.KhachHangs.CountAsync();
     }
 }
 
 <style>
-/* 
     .video-background {
         position: fixed;
         top: 0;
@@ -130,14 +154,16 @@
             left: 50%;
             transform: translate(-50%, -50%);
             background-size: cover;
-        } */
+        }
+
 
     h1.my-4 {
-        color: #333;
+        color: #CD5555;
         text-align: center;
         font-size: 2.5rem;
         margin-bottom: 2rem;
         position: relative;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
         h1.my-4::after {
@@ -145,12 +171,13 @@
             display: block;
             width: 200px;
             height: 4px;
-            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            background: linear-gradient(90deg, rgba(222,0,36,1) 0%, rgba(200,95,121,1) 35%, rgba(0,212,255,1) 100%);
             margin: 10px auto 0;
             border-radius: 2px;
         }
 
     .card {
+        /*khi chuot toi*/
         border: none;
         border-radius: 10px;
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -173,7 +200,7 @@
     .card:hover .card-title,
     .card:hover .card-text,
     .card:hover i {
-        color: inherit; /* Giữ nguyên màu khi hover */
+        color: inherit;
     }
 
     .card-body {
@@ -197,15 +224,23 @@
     }
 
     .bg-primary {
-        background: linear-gradient(135deg, #007bff, #6610f2);
+        background: linear-gradient(135deg, #009ACD, #00BFFF);
     }
 
     .bg-success {
-        background: linear-gradient(135deg, #28a745, #20c997);
+        background: linear-gradient(135deg, #28b745, #20c997);
     }
 
     .bg-warning {
         background: linear-gradient(135deg, #ffc107, #fd7e14);
+    }
+
+    .bg-hoadon {
+        background: linear-gradient(135deg, #79CDCD, #528B8B);
+    }
+
+    .bg-khohang {
+        background: linear-gradient(135deg, #FF00DC, #FF0044);
     }
 
     h1, h2 {
@@ -216,5 +251,12 @@
         font-size: 1.5rem;
         color: #555;
         margin-top: 20px;
+    }
+
+    .custom-col {
+        flex: 0 0 auto;
+        width: 19.9%;
+        /*Tạo một lớp CSS tùy chỉnh .custom-col với width: 19.2% để đảm bảo mỗi thẻ chiếm một phần ngang bằng của hàng (tổng cộng 5 thẻ chia đều 100% sẽ là 20%, nhưng giảm một chút để đảm bảo không có thẻ nào tràn hàng).
+    Áp dụng lớp CSS tùy chỉnh này cho các div chứa thẻ card.*/
     }
 </style>

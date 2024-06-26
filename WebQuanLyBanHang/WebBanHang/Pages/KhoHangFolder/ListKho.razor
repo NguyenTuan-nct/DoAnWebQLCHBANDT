@@ -1,0 +1,215 @@
+﻿@page "/danhsach-kho"
+@inject ApplicationDbContext DbContext
+@inject NavigationManager Navigation
+@inject Microsoft.JSInterop.IJSRuntime JSRuntime
+
+<h1 class="text-center my-4">Danh Sách Kho Hàng</h1>
+<button class="btn btn-success mb-3" @onclick="CreateKho">
+    <i class="fas fa-plus"></i> Thêm Kho Hàng
+</button>
+
+<div class="video-background">
+    <video autoplay loop muted playsinline>
+        <source src="videos/nentrang2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+@if (isLoading)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered table-hover table-dark-borders">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Mã Kho</th>
+                    <th>Tên Kho</th>
+                    <th>Địa Chỉ Kho</th>
+                    <th>Số Lượng Tồn</th>
+                    <th>Hành Động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var kho in KhoHangs)
+                {
+                    <tr>
+                        <td class="table-middle">@kho.KhoHangId</td>
+                        <td class="table-middle">@kho.TenKho</td>
+                        <td class="table-middle">@kho.DiaChiKho</td>
+                        <td class="table-middle">@GetSoLuongTon(kho.KhoHangId)</td>
+                        <td class="table-middle text-center">
+                            <button class="btn btn-sm btn-primary mr-1" @onclick="() => ViewKho(kho.KhoHangId)">Xem</button>
+                            <button class="btn btn-sm btn-danger" @onclick="() => ConfirmDeleteKho(kho.KhoHangId)">Xóa</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+@code {
+    private List<KhoHang> KhoHangs;
+    private List<SanPham> SanPhams;
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        KhoHangs = await DbContext.KhoHangs.ToListAsync();
+        SanPhams = await DbContext.SanPhams.ToListAsync(); // Load sản phẩm
+        isLoading = false;
+    }
+
+    private int GetSoLuongTon(int khoHangId)
+    {
+        return SanPhams.Where(sp => sp.KhoHangId == khoHangId).Sum(sp => sp.TonKho);
+    }
+
+    private void CreateKho()
+    {
+        Navigation.NavigateTo("/add-kho");
+    }
+
+    private void ViewKho(int khoHangId)
+    {
+        Navigation.NavigateTo($"/edit-kho/{khoHangId}");
+    }
+
+    private async Task ConfirmDeleteKho(int khoHangId)
+    {
+        if (await JSRuntime.InvokeAsync<bool>("confirm", "Bạn có chắc chắn muốn xóa kho hàng này không?"))
+        {
+            var kho = await DbContext.KhoHangs.FindAsync(khoHangId);
+            if (kho != null)
+            {
+                DbContext.KhoHangs.Remove(kho);
+                await DbContext.SaveChangesAsync();
+                KhoHangs.Remove(kho);
+            }
+        }
+    }
+}
+
+<style>
+    /* Đặt màu chữ và kiểu cho tiêu đề */
+    .my-4 {
+        color: black;
+    }
+
+    h1.my-4 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Thêm đường viền dưới tiêu đề */
+    h1.my-4::after {
+        content: '';
+        display: block;
+        width: 200px;
+        height: 4px;
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        margin: 10px auto 0;
+        border-radius: 2px;
+    }
+
+    /* Khoảng cách dưới tiêu đề */
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    /* Thiết lập video nền */
+    .video-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+    }
+
+        .video-background video {
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-size: cover;
+            filter: blur(3px);
+        }
+
+    /* Đặt kiểu nút */
+    .btn-primary {
+        border-radius: 5px;
+    }
+
+    .btn-danger {
+        border-radius: 5px;
+    }
+
+    /* Khoảng cách trên cho bảng */
+    .table-responsive {
+        margin-top: 20px;
+    }
+
+    /* Đặt kiểu bảng */
+    .table {
+        border-radius: 5px;
+        overflow: hidden;
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+
+    /* Màu nền và viền của tiêu đề bảng */
+    .thead-dark th {
+        background-color: #FF9966;
+        color: white;
+        border-color: black !important;
+    }
+
+    /* Màu nền xen kẽ cho các hàng bảng */
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+
+    .table-striped tbody tr:nth-of-type(even) {
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+
+    /* Đổi màu viền bảng thành màu đen */
+    .table-bordered {
+        border: 1px solid black;
+    }
+
+        /* Đổi màu viền cột thành màu đen */
+        .table-bordered th,
+        .table-bordered td {
+            border: 1px solid black !important;
+        }
+
+    /* Thêm hiệu ứng khi di chuột qua các hàng bảng */
+    .table-hover tbody tr:hover {
+        background-color: rgba(255, 255, 255, 0.075);
+        color: #212529;
+    }
+
+    /* Canh giữa các ô trong bảng */
+    .table-middle {
+        vertical-align: middle !important;
+    }
+
+    /* Canh giữa văn bản */
+    .text-center {
+        text-align: center;
+    }
+
+    /* Khoảng cách phải cho các nút */
+    .mr-1 {
+        margin-right: 5px;
+    }
+</style>

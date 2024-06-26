@@ -1,0 +1,124 @@
+﻿@page "/view-hoa-don/{HoaDonId:int}"
+@inject ApplicationDbContext DbContext
+@inject NavigationManager Navigation
+
+<AuthRedirect />
+
+<style>
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    .container {
+        max-width: 800px;
+    }
+
+    .card {
+        border-radius: 10px;
+    }
+
+    .card-body {
+        padding: 30px;
+    }
+
+    .row .col-md-6 {
+        margin-bottom: 10px;
+    }
+
+    .table-bordered {
+        border: 1px solid black;
+    }
+
+        .table-bordered th,
+        .table-bordered td {
+            border: 1px solid black;
+        }
+
+    .thead-dark th {
+        background-color: #343a40;
+        color: white;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+</style>
+
+<h1 class="text-center my-4">Chi Tiết Hóa Đơn</h1>
+@if (isLoading)
+{
+    <div class="text-center">
+        <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+}
+else
+{
+    <div class="container">
+        <div class="card shadow-sm mb-3">
+            <div class="card-body">
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <p><strong>ID Hóa Đơn:</strong> @HoaDon.HoaDonId</p>
+                        <p><strong>Ngày Lập:</strong> @HoaDon.NgayLap.ToShortDateString()</p>
+                        <p><strong>Tên Khách Hàng:</strong> @HoaDon.KhachHang.TenKhachHang</p> <!-- Updated -->
+                        <p><strong>Số Điện Thoại:</strong> @HoaDon.KhachHang.SoDienThoai</p> <!-- Updated -->
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <p><strong>Tuấn Nguyễn Store</strong></p>
+                        <p>Địa chỉ: 99 Hồ Đắc Di</p>
+                        <p>Mã số thuế: 868699</p>
+                        <p>SDT: 09099909</p>
+                    </div>
+                </div>
+
+                <h5>Chi Tiết Sản Phẩm</h5>
+                <table class="table table-striped table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Tên Sản Phẩm</th>
+                            <th>Số Lượng</th>
+                            <th>Giá</th>
+                            <th>Tổng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var chiTiet in HoaDon.ChiTietHoaDons)
+                        {
+                            <tr>
+                                <td>@chiTiet.SanPham.TenSanPham</td>
+                                <td>@chiTiet.SoLuong</td>
+                                <td>@string.Format(new CultureInfo("vi-VN"), "{0:C0}", chiTiet.Gia)</td>
+                                <td>@string.Format(new CultureInfo("vi-VN"), "{0:C0}", chiTiet.SoLuong * chiTiet.Gia)</td>
+                            </tr>
+                        }
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3" class="text-right"><strong>Tổng cộng</strong></td>
+                            <td><strong>@string.Format(new CultureInfo("vi-VN"), "{0:C0}", HoaDon.ChiTietHoaDons.Sum(c => c.SoLuong * c.Gia))</strong></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public int HoaDonId { get; set; }
+
+    private HoaDon HoaDon;
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        HoaDon = await DbContext.HoaDons
+                                .Include(h => h.ChiTietHoaDons).ThenInclude(c => c.SanPham)
+                                .Include(h => h.KhachHang) // Include KhachHang
+                                .FirstOrDefaultAsync(h => h.HoaDonId == HoaDonId);
+        isLoading = false;
+    }
+}

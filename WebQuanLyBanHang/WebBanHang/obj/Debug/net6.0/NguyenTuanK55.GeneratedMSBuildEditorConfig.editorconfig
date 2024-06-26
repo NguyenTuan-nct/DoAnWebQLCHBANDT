@@ -22,40 +22,52 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/AddUser.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkVXNlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/AuthRedirect.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFJlZGlyZWN0LnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/CreateInvoice.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlSW52b2ljZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/CreateSanPham.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlU2FuUGhhbS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/DashBoard.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaEJvYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/EditUser.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFVzZXIucmF6b3I=
+[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/HoaDonFolder/CreateInvoice.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9hRG9uRm9sZGVyXENyZWF0ZUludm9pY2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/HoaDonFolder/InvoiceDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9hRG9uRm9sZGVyXEludm9pY2VEZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/HoaDonFolder/InvoiceList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9hRG9uRm9sZGVyXEludm9pY2VMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/InvoiceDetails.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52b2ljZURldGFpbHMucmF6b3I=
+[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/KhachHangFolder/CustomerAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2hhY2hIYW5nRm9sZGVyXEN1c3RvbWVyQWRkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/InvoiceList.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52b2ljZUxpc3QucmF6b3I=
+[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/KhachHangFolder/CustomerEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2hhY2hIYW5nRm9sZGVyXEN1c3RvbWVyRWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/KhachHangFolder/CustomerList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2hhY2hIYW5nRm9sZGVyXEN1c3RvbWVyTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/KhoHangFolder/AddKho.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2hvSGFuZ0ZvbGRlclxBZGRLaG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/KhoHangFolder/EditKho.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2hvSGFuZ0ZvbGRlclxFZGl0S2hvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/KhoHangFolder/ListKho.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2hvSGFuZ0ZvbGRlclxMaXN0S2hvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/Login.razor]
@@ -66,16 +78,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/SanPhamList.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FuUGhhbUxpc3QucmF6b3I=
+[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/NguoiDungFolder/AddUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmd1b2lEdW5nRm9sZGVyXEFkZFVzZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/UserList.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckxpc3QucmF6b3I=
+[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/NguoiDungFolder/EditUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmd1b2lEdW5nRm9sZGVyXEVkaXRVc2VyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/ViewSanPham.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1NhblBoYW0ucmF6b3I=
+[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/NguoiDungFolder/UserList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmd1b2lEdW5nRm9sZGVyXFVzZXJMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/SanPhamFolder/CreateSanPham.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FuUGhhbUZvbGRlclxDcmVhdGVTYW5QaGFtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/SanPhamFolder/SanPhamList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FuUGhhbUZvbGRlclxTYW5QaGFtTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Pages/SanPhamFolder/ViewSanPham.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FuUGhhbUZvbGRlclxWaWV3U2FuUGhhbS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lenovo/source/repos/Project/WEBQLBANDT/WebQuanLyBanHang/WebBanHang/Shared/SurveyPrompt.razor]
