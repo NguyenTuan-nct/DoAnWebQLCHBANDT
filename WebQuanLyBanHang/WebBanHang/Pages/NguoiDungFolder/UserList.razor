@@ -15,10 +15,16 @@
     </video>
 </div>
 
-@if (AuthService.GetUserCap() < 5)
-{
-    <button class="btn btn-success mb-3" @onclick="CreateUser"><i class="fas fa-plus"></i> Thêm </button>
-}
+<div class="search-container">
+    <input type="text" placeholder="Tìm kiếm người dùng..." @bind="searchTerm" @bind:event="oninput" />
+    <button class="btn btn-primary mr-2" @onclick="SearchUsers">
+        <i class="fas fa-search"></i> Tìm
+    </button>
+    @if (AuthService.GetUserCap() < 5)
+    {
+        <button class="btn btn-success" @onclick="CreateUser"><i class="fas fa-plus"></i> Thêm</button>
+    }
+</div>
 
 @if (isLoading)
 {
@@ -41,7 +47,7 @@ else
                 </tr>
             </thead>
             <tbody>
-                @foreach (var nguoiDung in NguoiDungs)
+                @foreach (var nguoiDung in filteredNguoiDungs)
                 {
                     <tr>
                         <td>@nguoiDung.HoTen</td>
@@ -67,11 +73,14 @@ else
 
 @code {
     private List<NguoiDung> NguoiDungs;
+    private List<NguoiDung> filteredNguoiDungs;
     private bool isLoading = true;
+    private string searchTerm = string.Empty;
 
     protected override async Task OnInitializedAsync()
     {
         NguoiDungs = await DbContext.NguoiDungs.OrderBy(nguoiDung => nguoiDung.Cap).ToListAsync();
+        filteredNguoiDungs = NguoiDungs;
         isLoading = false;
     }
 
@@ -95,7 +104,33 @@ else
                 DbContext.NguoiDungs.Remove(nguoiDung);
                 await DbContext.SaveChangesAsync();
                 NguoiDungs.Remove(nguoiDung);
+                FilterUsers(); // Update the filtered list after removal
             }
+        }
+    }
+
+    private void SearchUsers()
+    {
+        FilterUsers();
+    }
+
+    private void FilterUsers()
+    {
+        if (string.IsNullOrWhiteSpace(searchTerm))
+        {
+            filteredNguoiDungs = NguoiDungs;
+        }
+        else
+        {
+            filteredNguoiDungs = NguoiDungs
+                .Where(nd => nd.HoTen.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                             nd.NgaySinh.ToString("dd/MM/yyyy").Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                             (nd.GioiTinh ? "Nam" : "Nữ").Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                             nd.DiaChi.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                             nd.DienThoai.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                             nd.Email.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                             nd.Cap.ToString().Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
+                .ToList();
         }
     }
 }
@@ -204,4 +239,22 @@ else
     .quantri-text {
         text-align: center;
     }
+
+    .search-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+        .search-container input {
+            width: 200px;
+            border-radius: 5px;
+            padding: 5px;
+            margin-right: 5px;
+        }
+
+        .search-container button {
+            margin-right: 5px;
+        }
 </style>

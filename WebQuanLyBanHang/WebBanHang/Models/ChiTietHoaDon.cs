@@ -14,4 +14,3 @@ namespace NguyenTuanK55.Models
         public SanPham SanPham { get; set; }
     }
 }
-

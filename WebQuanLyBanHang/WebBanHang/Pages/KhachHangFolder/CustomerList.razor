@@ -32,15 +32,15 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    h1.my-4::after {
-        content: '';
-        display: block;
-        width: 200px;
-        height: 4px;
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-        margin: 10px auto 0;
-        border-radius: 2px;
-    }
+        h1.my-4::after {
+            content: '';
+            display: block;
+            width: 200px;
+            height: 4px;
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
 
     .h1 {
         margin-bottom: 30px;
@@ -126,6 +126,10 @@
             padding: 5px;
             margin-right: 5px;
         }
+
+        .search-container button {
+            margin-right: 5px;
+        }
 </style>
 
 <h1 class="text-center my-4">Danh Sách Khách Hàng</h1>
@@ -138,12 +142,12 @@
 </div>
 
 <div class="search-container">
-    <button class="btn btn-success mr-2" @onclick="CreateCustomer">
-        <i class="fas fa-plus"></i> Thêm Khách Hàng
-    </button>
     <input type="text" placeholder="Tìm kiếm khách hàng..." @bind="searchTerm" @bind:event="oninput" />
     <button class="btn btn-primary" @onclick="SearchCustomers">
         <i class="fas fa-search"></i> Tìm
+    </button>
+    <button class="btn btn-success" @onclick="CreateCustomer">
+        <i class="fas fa-plus"></i> Thêm Khách Hàng
     </button>
 </div>
 

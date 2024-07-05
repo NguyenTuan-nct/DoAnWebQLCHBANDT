@@ -5,7 +5,16 @@
 <AuthRedirect />
 
 <h1 class="text-center my-4">Danh Sách Hóa Đơn</h1>
-<button class="btn btn-success mb-3" @onclick="CreateInvoice"><i class="fas fa-plus"></i> Thêm Hóa Đơn</button>
+
+<div class="search-container">
+    <input type="text" placeholder="Tìm kiếm hóa đơn..." @bind="searchTerm" @bind:event="oninput" />
+    <button class="btn btn-primary mr-2" @onclick="SearchInvoices">
+        <i class="fas fa-search"></i> Tìm
+    </button>
+    <button class="btn btn-success" @onclick="CreateInvoice">
+        <i class="fas fa-plus"></i> Thêm Hóa Đơn
+    </button>
+</div>
 
 <div class="video-background">
     <video autoplay loop muted playsinline>
@@ -33,7 +42,7 @@ else
                 </tr>
             </thead>
             <tbody>
-                @foreach (var hoaDon in HoaDons)
+                @foreach (var hoaDon in filteredHoaDons)
                 {
                     <tr>
                         <td class="table-middle">@hoaDon.HoaDonId</td>
@@ -54,7 +63,9 @@ else
 
 @code {
     private List<HoaDon> HoaDons;
+    private List<HoaDon> filteredHoaDons;
     private bool isLoading = true;
+    private string searchTerm = string.Empty;
 
     protected override async Task OnInitializedAsync()
     {
@@ -62,6 +73,7 @@ else
                                 .Include(h => h.NguoiDung)
                                 .Include(h => h.KhachHang)
                                 .ToListAsync();
+        filteredHoaDons = HoaDons;
         isLoading = false;
     }
 
@@ -85,7 +97,31 @@ else
                 DbContext.HoaDons.Remove(hoaDon);
                 await DbContext.SaveChangesAsync();
                 HoaDons.Remove(hoaDon);
+                FilterInvoices(); // Update the filtered list after removal
             }
+        }
+    }
+
+    private void SearchInvoices()
+    {
+        FilterInvoices();
+    }
+
+    private void FilterInvoices()
+    {
+        if (string.IsNullOrWhiteSpace(searchTerm))
+        {
+            filteredHoaDons = HoaDons;
+        }
+        else
+        {
+            filteredHoaDons = HoaDons
+                .Where(hd => hd.HoaDonId.ToString().Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                             hd.NgayLap.ToString("dd/MM/yyyy").Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                             hd.NguoiDung.HoTen.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                             hd.KhachHang.TenKhachHang.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                             hd.KhachHang.SoDienThoai.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
+                .ToList();
         }
     }
 }
@@ -165,7 +201,6 @@ else
                 cursor: pointer;
             }
 
-
     .thead-dark th {
         background-color: #00A3A3;
         color: white;
@@ -200,4 +235,22 @@ else
     .mr-1 {
         margin-right: 5px;
     }
+
+    .search-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+        .search-container input {
+            width: 200px;
+            border-radius: 5px;
+            padding: 5px;
+            margin-right: 5px;
+        }
+
+        .search-container button {
+            margin-right: 5px;
+        }
 </style>

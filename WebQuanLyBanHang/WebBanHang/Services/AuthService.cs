@@ -15,10 +15,10 @@ namespace NguyenTuanK55.Services
         private readonly IServiceScopeFactory _scopeFactory;
         private static NguoiDung _currentUser;
 
-        // Sự kiện thông báo khi trạng thái xác thực thay đổi
+
         public event Action OnChange;
 
-        // Khởi tạo AuthService với các phụ thuộc
+        // Khởi tạo AuthService
         public AuthService(IJSRuntime jsRuntime, NavigationManager navigationManager, IServiceScopeFactory scopeFactory)
         {
             _jsRuntime = jsRuntime;
@@ -37,7 +37,7 @@ namespace NguyenTuanK55.Services
             return await Task.FromResult(new AuthenticationState(new ClaimsPrincipal(identity)));
         }
 
-        //---------------------------// Đăng nhập người dùng-------------------------------------------------------------------------------------------
+        // Đăng nhập người dùng
         public async Task Login(UserLoginModel user)
         {
             using (var scope = _scopeFactory.CreateScope())

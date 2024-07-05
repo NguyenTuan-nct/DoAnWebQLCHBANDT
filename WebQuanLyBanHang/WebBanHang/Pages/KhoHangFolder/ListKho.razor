@@ -4,9 +4,16 @@
 @inject Microsoft.JSInterop.IJSRuntime JSRuntime
 
 <h1 class="text-center my-4">Danh Sách Kho Hàng</h1>
-<button class="btn btn-success mb-3" @onclick="CreateKho">
-    <i class="fas fa-plus"></i> Thêm Kho Hàng
-</button>
+
+<div class="search-container">
+    <input type="text" placeholder="Tìm kiếm kho hàng..." @bind="searchTerm" @bind:event="oninput" />
+    <button class="btn btn-primary mr-2" @onclick="SearchKhoHangs">
+        <i class="fas fa-search"></i> Tìm
+    </button>
+    <button class="btn btn-success" @onclick="CreateKho">
+        <i class="fas fa-plus"></i> Thêm Kho Hàng
+    </button>
+</div>
 
 <div class="video-background">
     <video autoplay loop muted playsinline>
@@ -33,7 +40,7 @@ else
                 </tr>
             </thead>
             <tbody>
-                @foreach (var kho in KhoHangs)
+                @foreach (var kho in filteredKhoHangs)
                 {
                     <tr>
                         <td class="table-middle">@kho.KhoHangId</td>
@@ -53,13 +60,16 @@ else
 
 @code {
     private List<KhoHang> KhoHangs;
+    private List<KhoHang> filteredKhoHangs;
     private List<SanPham> SanPhams;
     private bool isLoading = true;
+    private string searchTerm = string.Empty;
 
     protected override async Task OnInitializedAsync()
     {
         KhoHangs = await DbContext.KhoHangs.ToListAsync();
         SanPhams = await DbContext.SanPhams.ToListAsync(); // Load sản phẩm
+        filteredKhoHangs = KhoHangs;
         isLoading = false;
     }
 
@@ -88,7 +98,29 @@ else
                 DbContext.KhoHangs.Remove(kho);
                 await DbContext.SaveChangesAsync();
                 KhoHangs.Remove(kho);
+                FilterKhoHangs(); // Update the filtered list after removal
             }
+        }
+    }
+
+    private void SearchKhoHangs()
+    {
+        FilterKhoHangs();
+    }
+
+    private void FilterKhoHangs()
+    {
+        if (string.IsNullOrWhiteSpace(searchTerm))
+        {
+            filteredKhoHangs = KhoHangs;
+        }
+        else
+        {
+            filteredKhoHangs = KhoHangs
+                .Where(kh => kh.KhoHangId.ToString().Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                             kh.TenKho.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                             kh.DiaChiKho.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
+                .ToList();
         }
     }
 }
@@ -103,16 +135,16 @@ else
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    /* Thêm đường viền dưới tiêu đề */
-    h1.my-4::after {
-        content: '';
-        display: block;
-        width: 200px;
-        height: 4px;
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-        margin: 10px auto 0;
-        border-radius: 2px;
-    }
+        /* Thêm đường viền dưới tiêu đề */
+        h1.my-4::after {
+            content: '';
+            display: block;
+            width: 200px;
+            height: 4px;
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
 
     /* Khoảng cách dưới tiêu đề */
     h1 {
@@ -212,4 +244,22 @@ else
     .mr-1 {
         margin-right: 5px;
     }
+
+    .search-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+        .search-container input {
+            width: 200px;
+            border-radius: 5px;
+            padding: 5px;
+            margin-right: 5px;
+        }
+
+        .search-container button {
+            margin-right: 5px;
+        }
 </style>

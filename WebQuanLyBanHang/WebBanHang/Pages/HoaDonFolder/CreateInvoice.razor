@@ -1,8 +1,8 @@
 ﻿@page "/create-hoa-don"
-@* @using NguyenTuanK55.Models *@
 @inject ApplicationDbContext DbContext
 @inject NavigationManager Navigation
 @inject AuthService AuthService
+
 <AuthRedirect />
 
 <h1 class="text-center my-4">Lập Hóa Đơn</h1>
@@ -101,7 +101,7 @@
 @code {
     private HoaDon HoaDon = new HoaDon { NgayLap = DateTime.Today, ChiTietHoaDons = new List<ChiTietHoaDon>() };
     private List<SanPham> SanPhams;
-    private List<KhachHang> KhachHangs; // Added KhachHangs
+    private List<KhachHang> KhachHangs;
     private List<ChiTietHoaDon> ChiTietHoaDons = new List<ChiTietHoaDon>();
     private int SelectedSanPhamId;
     private int SoLuong;
@@ -110,7 +110,7 @@
     protected override async Task OnInitializedAsync()
     {
         SanPhams = await DbContext.SanPhams.ToListAsync();
-        KhachHangs = await DbContext.KhachHangs.ToListAsync(); // Load KhachHangs
+        KhachHangs = await DbContext.KhachHangs.ToListAsync();
     }
 
     private void AddProduct()
@@ -140,6 +140,7 @@
                     };
                 ChiTietHoaDons.Add(chiTiet);
             }
+
             // Reset selection and quantity
             SelectedSanPhamId = 0;
             SoLuong = 0;
@@ -155,13 +156,28 @@
             return;
         }
 
-        // Retrieve the user ID from AuthService
         var userId = AuthService.GetUserId();
         if (userId > 0)
         {
             HoaDon.NguoiDungId = userId;
             HoaDon.ChiTietHoaDons = ChiTietHoaDons;
             DbContext.HoaDons.Add(HoaDon);
+
+            // Cập nhật số lượng tồn kho trong cơ sở dữ liệu
+            foreach (var chiTiet in ChiTietHoaDons)
+            {
+                var sanPham = await DbContext.SanPhams.FindAsync(chiTiet.SanPhamId);
+                if (sanPham != null)
+                {
+                    if (sanPham.TonKho < chiTiet.SoLuong)
+                    {
+                        ErrorMessage = $"Số lượng sản phẩm {sanPham.TenSanPham} không đủ.";
+                        return;
+                    }
+                    sanPham.TonKho -= chiTiet.SoLuong;
+                }
+            }
+
             await DbContext.SaveChangesAsync();
             Navigation.NavigateTo("/hoa-don-list");
         }

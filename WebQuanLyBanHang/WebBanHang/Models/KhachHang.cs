@@ -12,6 +12,6 @@ namespace NguyenTuanK55.Models
         public string DiaChi { get; set; }
         public string SoDienThoai { get; set; }
         public string Email { get; set; }
-        public ICollection<HoaDon> HoaDons { get; set; }
+        public ICollection<HoaDon> HoaDons { get; set; }//Đây là một thuộc tính ICollection mà mỗi đối tượng KhachHang có thể có nhiều đối tượng HoaDon.
     }
 }
