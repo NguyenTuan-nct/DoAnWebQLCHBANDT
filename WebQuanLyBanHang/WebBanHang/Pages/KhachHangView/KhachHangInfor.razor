@@ -1,0 +1,112 @@
+﻿@page "/thongtinkhachhang"
+@inject ApplicationDbContext DbContext
+@inject NavigationManager Navigation
+
+<h1 class="text-center my-4">Nhập Thông Tin</h1>
+
+<div class="container"> 
+    <div class="card shadow-sm mb-3">
+        <div class="card-body">
+            <EditForm Model="@KhachHang" OnValidSubmit="HandleValidSubmit">
+                <DataAnnotationsValidator />
+                <ValidationSummary class="text-danger" />
+
+                <div class="form-group">
+                    <label for="hoTen">Họ Tên</label>
+                    <InputText id="hoTen" class="form-control" @bind-Value="KhachHang.TenKhachHang" />
+                </div>
+
+                <div class="form-group">
+                    <label for="ngaySinh">Ngày Sinh</label>
+                    <InputDate id="ngaySinh" class="form-control" @bind-Value="KhachHang.NgaySinh" />
+                </div>
+
+                <div class="form-group">
+                    <label for="gioiTinh">Giới Tính</label>
+                    <InputSelect id="gioiTinh" class="form-control" @bind-Value="KhachHang.GioiTinh">
+                        <option value="true">Nam</option>
+                        <option value="false">Nữ</option>
+                    </InputSelect>
+                </div>
+
+                <div class="form-group">
+                    <label for="diaChi">Địa Chỉ</label>
+                    <InputText id="diaChi" class="form-control" @bind-Value="KhachHang.DiaChi" />
+                </div>
+
+                <div class="form-group">
+                    <label for="dienThoai">Số Điện Thoại</label>
+                    <InputText id="dienThoai" class="form-control" @bind-Value="KhachHang.SoDienThoai" />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <InputText id="email" class="form-control" @bind-Value="KhachHang.Email" />
+                </div>
+
+                <div class="d-flex justify-content-end mt-4">
+                    <button type="submit" class="btn btn-primary mr-2">Thanh Toán Ngay</button>
+                    <button type="button" class="btn btn-secondary" @onclick="Cancel">Hủy</button>
+                </div>
+            </EditForm>
+        </div>
+    </div>
+</div>
+
+@code {
+    private KhachHang KhachHang = new KhachHang();
+
+    private async Task HandleValidSubmit()
+    {
+        DbContext.KhachHangs.Add(KhachHang);
+        await DbContext.SaveChangesAsync();
+        Navigation.NavigateTo("/hoadonkh");
+    }
+
+    private void Cancel()
+    {
+        Navigation.NavigateTo("/giohang");
+    }
+}
+
+<style>
+    .container {
+        max-width: 600px;
+    }
+
+    .card {
+        border-radius: 10px;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        border-color: #6c757d;
+    }
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+        border-color: #545b62;
+    }
+</style>

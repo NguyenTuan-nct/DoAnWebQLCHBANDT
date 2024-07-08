@@ -3,9 +3,8 @@
 @inject NavigationManager Navigation
 @inject IWebHostEnvironment Env
 @inject Microsoft.JSInterop.IJSRuntime JSRuntime
-<AuthRedirect />
 
-<style>
+<style >
     .video-background {
         position: fixed;
         top: 0;
@@ -16,17 +15,17 @@
         overflow: hidden;
     }
 
-        .video-background video {
-            min-width: 100%;
-            min-height: 100%;
-            width: auto;
-            height: auto;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-size: cover;
-        }
+    .video-background video {
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-size: cover;
+    }
 
     .my-4 {
         color: black;
@@ -140,6 +139,143 @@
             padding: 5px;
             margin-right: 5px;
         }
+
+
+
+    .video-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+    }
+
+        .video-background video {
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-size: cover;
+        }
+
+    .my-4 {
+        color: black;
+    }
+
+    h1.my-4 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+        h1.my-4::after {
+            content: '';
+            display: block;
+            width: 200px;
+            height: 4px;
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
+
+    .btn-primary {
+        border-radius: 5px;
+    }
+
+    .btn-danger {
+        border-radius: 5px;
+    }
+
+    .table-responsive {
+        margin-top: 20px;
+    }
+
+    .table {
+        border-radius: 5px;
+        overflow: hidden;
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+
+    .thead-dark th {
+        background-color: #448ccb;
+        color: white;
+        border-color: black !important;
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .table-striped tbody tr:nth-of-type(even) {
+        background-color: rgba(225, 235, 234, 0.9);
+    }
+
+    .table-bordered {
+        border: 1px solid black;
+    }
+
+        .table-bordered th,
+        .table-bordered td {
+            border: 1px solid black !important;
+        }
+
+    .table-middle {
+        vertical-align: middle !important;
+    }
+
+    .table tbody tr {
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .table tbody tr:hover {
+            background-color: rgba(0, 204, 153, 0.9); /* Đổi màu nền đậm hơn */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6); /* Tăng hiệu ứng bóng đổ */
+            cursor: pointer;
+        }
+    /*hieuung di chuot*/
+    .table-hover tbody tr:hover {
+        background-color: rgba(225, 255, 255, 1);
+        color: #212529;
+    }
+
+    .img-thumbnail {
+        border-radius: 5px;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .text-end {
+        text-align: right;
+    }
+
+    .mr-1 {
+        margin-right: 5px;
+    }
+
+    .search-container {
+        display: flex;
+        justify-content: space-between; /* Đổi thành space-between để căn chỉnh nút "Chế Độ Cửa Hàng" về bên trái */
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+        .search-container input {
+            width: 200px;
+            border-radius: 5px;
+            padding: 5px;
+            margin-right: 5px;
+        }
+
+    .shop-mode-button {
+        margin-left: auto; /* Đẩy nút "Chế Độ Cửa Hàng" về phía bên trái */
+    }
 </style>
 
 <h1 class="text-center my-4">Danh Sách Sản Phẩm</h1>
@@ -158,6 +294,9 @@
     </button>
     <button class="btn btn-success" @onclick="CreateProduct">
         <i class="fas fa-plus"></i> Thêm Sản Phẩm
+    </button>
+    <button class="btn btn-info shop-mode-button" @onclick="GoToShoppingPage">
+        Chế Độ Cửa Hàng
     </button>
 </div>
 
@@ -195,7 +334,7 @@ else
                         <td class="table-middle text-center">@sanPham.NgayNhap.ToShortDateString()</td>
                         <td class="table-middle text-center">@sanPham.MoTa</td>
                         <td class="table-middle text-center">@sanPham.TonKho</td>
-                        <td class="table-middle text-center">@GetTenKho(sanPham.KhoHangId)</td> <!-- Hiển thị tên kho -->
+                        <td class="table-middle text-center">@GetTenKho(sanPham.KhoHangId)</td>
                         <td class="table-middle text-center">
                             <button class="btn btn-primary btn-sm mr-1" @onclick="() => ViewProduct(sanPham.SanPhamId)">
                                 Sửa
@@ -291,5 +430,10 @@ else
                              GetTenKho(sp.KhoHangId).Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
                 .ToList();
         }
+    }
+
+    private void GoToShoppingPage()
+    {
+        Navigation.NavigateTo("/trangchumuahang");
     }
 }

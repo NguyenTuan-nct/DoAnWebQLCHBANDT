@@ -1,0 +1,208 @@
+﻿@page "/trangchumuahang"
+@inject ApplicationDbContext DbContext
+@inject NavigationManager Navigation
+@inject CartService CartService
+
+<h1 class="text-center my-4">Tuấn Nguyễn Store</h1>
+
+<div class="search-container">
+    <input type="text" placeholder="Tìm kiếm sản phẩm..." @bind="searchTerm" @bind:event="oninput" />
+    <button class="btn btn-primary" @onclick="SearchProducts">
+        <i class="fas fa-search"></i> Tìm
+    </button>
+</div>
+
+<button class="cart-btn" @onclick="GoToCart">
+    <i class="fas fa-shopping-cart"></i> Giỏ Hàng (@CartCount)
+</button>
+
+@if (isLoading)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <div class="product-grid">
+        @foreach (var sanPham in filteredSanPhams)
+        {
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="@sanPham.Anh" alt="@sanPham.TenSanPham" class="product-image" />
+                </div>
+                <div class="product-title">@sanPham.TenSanPham</div>
+                <div class="product-price">@string.Format(new CultureInfo("vi-VN"), "{0:C0}", sanPham.GiaSanPham)</div>
+                <div class="product-description">@sanPham.MoTa</div>
+                <button class="add-to-cart-btn" @onclick="() => AddToCart(sanPham.SanPhamId)">Thêm vào giỏ hàng</button>
+            </div>
+        }
+    </div>
+}
+
+@code {
+    private List<SanPham> SanPhams;
+    private List<SanPham> filteredSanPhams;
+    private bool isLoading = true;
+    private string searchTerm = string.Empty;
+    private int CartCount = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        SanPhams = await DbContext.SanPhams.ToListAsync();
+        filteredSanPhams = SanPhams;
+        isLoading = false;
+        await UpdateCartCount();
+    }
+
+    private void SearchProducts()
+    {
+        if (string.IsNullOrWhiteSpace(searchTerm))
+        {
+            filteredSanPhams = SanPhams;
+        }
+        else
+        {
+            filteredSanPhams = SanPhams
+                .Where(sp => sp.TenSanPham.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                             sp.LoaiSanPham.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                             sp.GiaSanPham.ToString().Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                             sp.MoTa.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
+                .ToList();
+        }
+    }
+
+    private async Task AddToCart(int sanPhamId)
+    {
+        await CartService.AddToCart(sanPhamId);
+        CartCount++;
+        await UpdateCartCount();
+        Console.WriteLine($"Product {sanPhamId} added to cart");
+    }
+
+    private async Task UpdateCartCount()
+    {
+        CartCount = await CartService.GetCartItemCount();
+    }
+
+    private void GoToCart()
+    {
+        Navigation.NavigateTo("/giohang");
+    }
+}
+
+<style>
+    .product-card {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 10px;
+        padding: 15px;
+        width: 250px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s, box-shadow 0.2s;
+        position: relative;
+    }
+
+        .product-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 0;
+        }
+
+    .product-image-container {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 5px;
+        position: relative;
+        z-index: 0;
+    }
+
+    .product-image {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        clip-path: inset(0px 0px 20% 0px);
+    }
+
+    .product-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    .product-price {
+        color: #007bff;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .product-description {
+        font-size: 14px;
+        color: #555;
+        margin: 10px 0;
+    }
+
+    .add-to-cart-btn {
+        background-color: #009999;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+        .add-to-cart-btn:hover {
+            background-color: #218838;
+        }
+
+    .cart-btn {
+        position: fixed;
+        bottom: 10px;
+        right: 20px;
+        background-color: #FF3300;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        z-index: 1;
+    }
+
+        .cart-btn:hover {
+            background-color: #FF9900;
+        }
+
+    .product-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .search-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+        .search-container input {
+            width: 300px;
+            border-radius: 5px;
+            padding: 10px;
+            margin-right: 5px;
+        }
+
+        .search-container button {
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+    h1.my-4 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+</style>

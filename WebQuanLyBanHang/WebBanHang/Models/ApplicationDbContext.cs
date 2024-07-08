@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using static NguyenTuanK55.Services.CartService;
 
 namespace NguyenTuanK55.Models
 {
@@ -8,13 +9,13 @@ namespace NguyenTuanK55.Models
             : base(options)
         {
         }
-
         public DbSet<SanPham> SanPhams { get; set; }
         public DbSet<NguoiDung> NguoiDungs { get; set; }
         public DbSet<HoaDon> HoaDons { get; set; }
         public DbSet<ChiTietHoaDon> ChiTietHoaDons { get; set; }
         public DbSet<KhoHang> KhoHangs { get; set; }
         public DbSet<KhachHang> KhachHangs { get; set; }
+        public DbSet<CartItem> CartItems { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -95,6 +96,16 @@ namespace NguyenTuanK55.Models
                 entity.Property(e => e.DiaChi).HasMaxLength(500);
                 entity.Property(e => e.SoDienThoai).HasMaxLength(20);
                 entity.Property(e => e.Email).HasMaxLength(200);
+            });
+
+            modelBuilder.Entity<CartItem>(entity =>
+            {
+                entity.ToTable("CartItems");
+                entity.HasKey(e => e.CartItemId);
+                entity.Property(e => e.Quantity).IsRequired();
+                entity.HasOne(e => e.SanPham)
+                      .WithMany(p => p.CartItems)
+                      .HasForeignKey(e => e.SanPhamId);
             });
         }
     }

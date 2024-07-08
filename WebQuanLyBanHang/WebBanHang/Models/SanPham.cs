@@ -18,5 +18,6 @@ namespace NguyenTuanK55.Models
         public int KhoHangId { get; set; }
         public KhoHang KhoHang { get; set; }
         public ICollection<ChiTietHoaDon> ChiTietHoaDons { get; set; }
+        public ICollection<CartItem> CartItems { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "326YQwT7T5ZKpVgXwFm+uwTAhJs0JZJJEW8ZR+fiuzk=",
+  "Hash": "/uS4QMPqs1Q79jpjBjAFWTxAYSkqf7fel2TeVHH8tAw=",
   "Source": "NguyenTuanK55",
   "BasePath": "_content/NguyenTuanK55",
   "Mode": "Default",
@@ -1155,6 +1155,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\ce2e04ad-8a9b-495f-b12c-fd15b81b4d9f.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\cfec98ac-bbcc-476c-982d-9956ff4053db.jfif",
+      "SourceId": "NguyenTuanK55",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/NguyenTuanK55",
+      "RelativePath": "images/cfec98ac-bbcc-476c-982d-9956ff4053db.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cfec98ac-bbcc-476c-982d-9956ff4053db.jfif"
     },
     {
       "Identity": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\cn.jpg",

@@ -3,104 +3,139 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\khachhangfolder\\customeredit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\khachhangfolder\\customeredit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\khohangfolder\\editkho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\khohangfolder\\editkho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\hoadonfolder\\invoicelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\hoadonfolder\\invoicelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\khohangfolder\\addkho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\khohangfolder\\addkho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\khachhangfolder\\customerlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\khachhangfolder\\customerlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\khachhangfolder\\customeradd.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\khachhangfolder\\customeradd.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\hoadonfolder\\invoicedetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\hoadonfolder\\invoicedetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\hoadonfolder\\createinvoice.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\hoadonfolder\\createinvoice.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\models\\khohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\models\\khohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\nguoidungfolder\\userlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\nguoidungfolder\\userlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\sanphamfolder\\sanphamlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\sanphamfolder\\sanphamlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\sanphamfolder\\createsanpham.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\sanphamfolder\\createsanpham.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\models\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\models\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\khohangfolder\\editkho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\khohangfolder\\editkho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\models\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\models\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\khachhangview\\khachhanginfor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\khachhangview\\khachhanginfor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\khachhangfolder\\customeradd.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\khachhangfolder\\customeradd.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\models\\giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\models\\giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\khachhangview\\giohang.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\khachhangview\\giohang.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\khachhangview\\trangchumuahang.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\khachhangview\\trangchumuahang.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\khachhangview\\hoadonkh.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\khachhangview\\hoadonkh.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\hoadonfolder\\invoicelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\hoadonfolder\\invoicelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\khohangfolder\\listkho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\khohangfolder\\listkho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\hoadonfolder\\createinvoice.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\hoadonfolder\\createinvoice.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\hoadonfolder\\invoicedetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\hoadonfolder\\invoicedetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\models\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\models\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\AppData\\Local\\Temp\\.vsdbgsrc\\3f82e52712739846e31c18dc8216fd10f5ab5432c6284a3a4eacb19462c44e55\\Pages__Layout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\shared\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\shared\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\sanphamfolder\\createsanpham.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\sanphamfolder\\createsanpham.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\models\\khohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\models\\khohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\models\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\models\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\khachhangfolder\\customeredit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\khachhangfolder\\customeredit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\authredirect.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -111,24 +146,36 @@
       "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\nguoidungfolder\\edituser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\nguyentuank55.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\nguyentuank55.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\khachhangfolder\\customerlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\khachhangfolder\\customerlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\sanphamfolder\\viewsanpham.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\sanphamfolder\\viewsanpham.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\khohangfolder\\addkho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\khohangfolder\\addkho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\nguoidungfolder\\userlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\nguoidungfolder\\userlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\khohangfolder\\listkho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\khohangfolder\\listkho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\shared\\surveyprompt.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\shared\\surveyprompt.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -139,20 +186,8 @@
       "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\data\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\shared\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\shared\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -171,10 +206,6 @@
       "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\data\\weatherforecastservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\data\\weatherforecastservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -187,16 +218,8 @@
       "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\shared\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\pages\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\pages\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|c:\\users\\lenovo\\source\\repos\\project\\webqlbandt\\webquanlybanhang\\webbanhang\\nguyentuank55.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0F19D163-B6A7-4386-9625-BC20FABE49F0}|WebBanHang\\NguyenTuanK55.csproj|solutionrelative:webbanhang\\nguyentuank55.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\AppData\\Local\\Temp\\.vsdbgsrc\\3adaeae50d39dc7423a3f8e9deff6d632d6036ab37d8b32baf8dc2c4ada3ecc4\\Renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -235,7 +258,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 22,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -255,227 +278,355 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InvoiceDetails.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\HoaDonFolder\\InvoiceDetails.razor",
-              "RelativeDocumentMoniker": "WebBanHang\\Pages\\HoaDonFolder\\InvoiceDetails.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\HoaDonFolder\\InvoiceDetails.razor",
-              "RelativeToolTip": "WebBanHang\\Pages\\HoaDonFolder\\InvoiceDetails.razor",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAAAFYAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T14:13:12.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InvoiceList.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\HoaDonFolder\\InvoiceList.razor",
-              "RelativeDocumentMoniker": "WebBanHang\\Pages\\HoaDonFolder\\InvoiceList.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\HoaDonFolder\\InvoiceList.razor",
-              "RelativeToolTip": "WebBanHang\\Pages\\HoaDonFolder\\InvoiceList.razor",
-              "ViewState": "AQIAAP8AAAAAAAAAAAAAADYAAACKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T14:05:58.407Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CustomerAdd.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhachHangFolder\\CustomerAdd.razor",
               "RelativeDocumentMoniker": "WebBanHang\\Pages\\KhachHangFolder\\CustomerAdd.razor",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhachHangFolder\\CustomerAdd.razor",
               "RelativeToolTip": "WebBanHang\\Pages\\KhachHangFolder\\CustomerAdd.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAA8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T07:45:41.615Z"
+              "WhenOpened": "2024-06-23T07:45:41.615Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomerEdit.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhachHangFolder\\CustomerEdit.razor",
-              "RelativeDocumentMoniker": "WebBanHang\\Pages\\KhachHangFolder\\CustomerEdit.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhachHangFolder\\CustomerEdit.razor",
-              "RelativeToolTip": "WebBanHang\\Pages\\KhachHangFolder\\CustomerEdit.razor",
-              "ViewState": "AQIAACMAAAAAAAAAAAAAADQAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "SanPhamList.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\SanPhamFolder\\SanPhamList.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\SanPhamFolder\\SanPhamList.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\SanPhamFolder\\SanPhamList.razor",
+              "RelativeToolTip": "WebBanHang\\Pages\\SanPhamFolder\\SanPhamList.razor",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAG4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T07:46:03.744Z",
+              "WhenOpened": "2024-07-07T14:34:10.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WebBanHang\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WebBanHang\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAAAIIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-12T14:19:33.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KhachHangInfor.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhachHangView\\KhachHangInfor.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\KhachHangView\\KhachHangInfor.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhachHangView\\KhachHangInfor.razor",
+              "RelativeToolTip": "WebBanHang\\Pages\\KhachHangView\\KhachHangInfor.razor",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAA8AAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T09:17:01.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\appsettings.json",
+              "RelativeDocumentMoniker": "WebBanHang\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\appsettings.json",
+              "RelativeToolTip": "WebBanHang\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-12T15:57:34.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CustomerList.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhachHangFolder\\CustomerList.razor",
-              "RelativeDocumentMoniker": "WebBanHang\\Pages\\KhachHangFolder\\CustomerList.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhachHangFolder\\CustomerList.razor",
-              "RelativeToolTip": "WebBanHang\\Pages\\KhachHangFolder\\CustomerList.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUBAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T07:44:07.95Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddKho.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhoHangFolder\\AddKho.razor",
-              "RelativeDocumentMoniker": "WebBanHang\\Pages\\KhoHangFolder\\AddKho.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhoHangFolder\\AddKho.razor",
-              "RelativeToolTip": "WebBanHang\\Pages\\KhoHangFolder\\AddKho.razor",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAABsAAABaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-20T01:44:49.3Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "EditKho.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhoHangFolder\\EditKho.razor",
               "RelativeDocumentMoniker": "WebBanHang\\Pages\\KhoHangFolder\\EditKho.razor",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhoHangFolder\\EditKho.razor",
               "RelativeToolTip": "WebBanHang\\Pages\\KhoHangFolder\\EditKho.razor",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAABjAAAA",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAMIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-20T01:49:15.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GioHang.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhachHangView\\GioHang.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\KhachHangView\\GioHang.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhachHangView\\GioHang.razor",
+              "RelativeToolTip": "WebBanHang\\Pages\\KhachHangView\\GioHang.razor",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAHgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T20:38:13.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\_Layout.cshtml",
+              "RelativeToolTip": "WebBanHang\\Pages\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:15:07.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "WebBanHang\\Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Services\\CartService.cs",
+              "RelativeToolTip": "WebBanHang\\Services\\CartService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T07:38:18.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Logout.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\Logout.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\Logout.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\Logout.razor",
+              "RelativeToolTip": "WebBanHang\\Pages\\Logout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T14:20:43.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\Error.cshtml",
+              "RelativeToolTip": "WebBanHang\\Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T14:13:20.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SanPham.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\SanPham.cs",
+              "RelativeDocumentMoniker": "WebBanHang\\Models\\SanPham.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\SanPham.cs",
+              "RelativeToolTip": "WebBanHang\\Models\\SanPham.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:14:46.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GioHang.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\GioHang.cs",
+              "RelativeDocumentMoniker": "WebBanHang\\Models\\GioHang.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\GioHang.cs",
+              "RelativeToolTip": "WebBanHang\\Models\\GioHang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T11:42:41.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TrangChuMuaHang.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhachHangView\\TrangChuMuaHang.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\KhachHangView\\TrangChuMuaHang.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhachHangView\\TrangChuMuaHang.razor",
+              "RelativeToolTip": "WebBanHang\\Pages\\KhachHangView\\TrangChuMuaHang.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T20:06:29.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "WebBanHang\\Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:15:23.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HoaDonKH.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhachHangView\\HoaDonKH.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\KhachHangView\\HoaDonKH.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhachHangView\\HoaDonKH.razor",
+              "RelativeToolTip": "WebBanHang\\Pages\\KhachHangView\\HoaDonKH.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T07:20:17.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InvoiceList.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\HoaDonFolder\\InvoiceList.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\HoaDonFolder\\InvoiceList.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\HoaDonFolder\\InvoiceList.razor",
+              "RelativeToolTip": "WebBanHang\\Pages\\HoaDonFolder\\InvoiceList.razor",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAAAJYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T14:05:58.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NguoiDung.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\NguoiDung.cs",
+              "RelativeDocumentMoniker": "WebBanHang\\Models\\NguoiDung.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\NguoiDung.cs",
+              "RelativeToolTip": "WebBanHang\\Models\\NguoiDung.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAhwBIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:14:43.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebBanHang\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebBanHang\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAhwBEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T04:39:13.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Program.cs",
               "RelativeDocumentMoniker": "WebBanHang\\Program.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Program.cs",
               "RelativeToolTip": "WebBanHang\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T16:15:33.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "CreateInvoice.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\HoaDonFolder\\CreateInvoice.razor",
               "RelativeDocumentMoniker": "WebBanHang\\Pages\\HoaDonFolder\\CreateInvoice.razor",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\HoaDonFolder\\CreateInvoice.razor",
               "RelativeToolTip": "WebBanHang\\Pages\\HoaDonFolder\\CreateInvoice.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKcAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T14:18:20.01Z"
+              "WhenOpened": "2024-07-07T13:19:38.229Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "WebBanHang\\Models\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\ApplicationDbContext.cs",
-              "RelativeToolTip": "WebBanHang\\Models\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABNAAAA",
+              "DocumentIndex": 24,
+              "Title": "Pages__Layout.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\.vsdbgsrc\\3f82e52712739846e31c18dc8216fd10f5ab5432c6284a3a4eacb19462c44e55\\Pages__Layout.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\3f82e52712739846e31c18dc8216fd10f5ab5432c6284a3a4eacb19462c44e55\\Pages__Layout.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\.vsdbgsrc\\3f82e52712739846e31c18dc8216fd10f5ab5432c6284a3a4eacb19462c44e55\\Pages__Layout.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\3f82e52712739846e31c18dc8216fd10f5ab5432c6284a3a4eacb19462c44e55\\Pages__Layout.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwv3QAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T04:39:13.869Z"
+              "WhenOpened": "2024-07-07T13:46:15.137Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\appsettings.json",
-              "RelativeDocumentMoniker": "WebBanHang\\appsettings.json",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\appsettings.json",
-              "RelativeToolTip": "WebBanHang\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-12T15:57:34.562Z"
+              "DocumentIndex": 25,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Shared\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "WebBanHang\\Shared\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Shared\\MainLayout.razor.css",
+              "RelativeToolTip": "WebBanHang\\Shared\\MainLayout.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-13T05:25:14.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 22,
+              "Title": "HoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\HoaDon.cs",
+              "RelativeDocumentMoniker": "WebBanHang\\Models\\HoaDon.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\HoaDon.cs",
+              "RelativeToolTip": "WebBanHang\\Models\\HoaDon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T23:40:40.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "WebBanHang\\Pages\\_Host.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:15:05.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "KhachHang.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\KhachHang.cs",
               "RelativeDocumentMoniker": "WebBanHang\\Models\\KhachHang.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\KhachHang.cs",
               "RelativeToolTip": "WebBanHang\\Models\\KhachHang.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T07:12:11.562Z"
+              "WhenOpened": "2024-06-23T07:12:11.562Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\_Imports.razor",
-              "RelativeDocumentMoniker": "WebBanHang\\_Imports.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\_Imports.razor",
-              "RelativeToolTip": "WebBanHang\\_Imports.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAQAAAA",
+              "DocumentIndex": 21,
+              "Title": "InvoiceDetails.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\HoaDonFolder\\InvoiceDetails.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\HoaDonFolder\\InvoiceDetails.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\HoaDonFolder\\InvoiceDetails.razor",
+              "RelativeToolTip": "WebBanHang\\Pages\\HoaDonFolder\\InvoiceDetails.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T16:15:31.326Z"
+              "WhenOpened": "2024-06-12T14:13:12.325Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "KhoHang.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\KhoHang.cs",
-              "RelativeDocumentMoniker": "WebBanHang\\Models\\KhoHang.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\KhoHang.cs",
-              "RelativeToolTip": "WebBanHang\\Models\\KhoHang.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T11:02:36.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserList.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\NguoiDungFolder\\UserList.razor",
-              "RelativeDocumentMoniker": "WebBanHang\\Pages\\NguoiDungFolder\\UserList.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\NguoiDungFolder\\UserList.razor",
-              "RelativeToolTip": "WebBanHang\\Pages\\NguoiDungFolder\\UserList.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T14:05:33.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SanPham.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\SanPham.cs",
-              "RelativeDocumentMoniker": "WebBanHang\\Models\\SanPham.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\SanPham.cs",
-              "RelativeToolTip": "WebBanHang\\Models\\SanPham.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T16:14:46.069Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "SanPhamList.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\SanPhamFolder\\SanPhamList.razor",
-              "RelativeDocumentMoniker": "WebBanHang\\Pages\\SanPhamFolder\\SanPhamList.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\SanPhamFolder\\SanPhamList.razor",
-              "RelativeToolTip": "WebBanHang\\Pages\\SanPhamFolder\\SanPhamList.razor",
-              "ViewState": "AQIAAMwAAAAAAAAAAAAAANYAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T14:04:46.225Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserLoginModel.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\UserLoginModel.cs",
-              "RelativeDocumentMoniker": "WebBanHang\\Models\\UserLoginModel.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\UserLoginModel.cs",
-              "RelativeToolTip": "WebBanHang\\Models\\UserLoginModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T16:14:47.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 28,
               "Title": "CreateSanPham.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\SanPhamFolder\\CreateSanPham.razor",
               "RelativeDocumentMoniker": "WebBanHang\\Pages\\SanPhamFolder\\CreateSanPham.razor",
@@ -487,79 +638,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "HoaDon.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\HoaDon.cs",
-              "RelativeDocumentMoniker": "WebBanHang\\Models\\HoaDon.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\HoaDon.cs",
-              "RelativeToolTip": "WebBanHang\\Models\\HoaDon.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "DocumentIndex": 29,
+              "Title": "KhoHang.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\KhoHang.cs",
+              "RelativeDocumentMoniker": "WebBanHang\\Models\\KhoHang.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\KhoHang.cs",
+              "RelativeToolTip": "WebBanHang\\Models\\KhoHang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T16:14:41.934Z"
+              "WhenOpened": "2024-06-20T11:02:36.454Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 30,
               "Title": "ChiTietHoaDon.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\ChiTietHoaDon.cs",
               "RelativeDocumentMoniker": "WebBanHang\\Models\\ChiTietHoaDon.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\ChiTietHoaDon.cs",
               "RelativeToolTip": "WebBanHang\\Models\\ChiTietHoaDon.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T14:18:11.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "NguoiDung.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\NguoiDung.cs",
-              "RelativeDocumentMoniker": "WebBanHang\\Models\\NguoiDung.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\NguoiDung.cs",
-              "RelativeToolTip": "WebBanHang\\Models\\NguoiDung.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "DocumentIndex": 31,
+              "Title": "UserLoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\UserLoginModel.cs",
+              "RelativeDocumentMoniker": "WebBanHang\\Models\\UserLoginModel.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Models\\UserLoginModel.cs",
+              "RelativeToolTip": "WebBanHang\\Models\\UserLoginModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T16:14:43.371Z"
+              "WhenOpened": "2024-06-12T16:14:47.652Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ListKho.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhoHangFolder\\ListKho.razor",
-              "RelativeDocumentMoniker": "WebBanHang\\Pages\\KhoHangFolder\\ListKho.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhoHangFolder\\ListKho.razor",
-              "RelativeToolTip": "WebBanHang\\Pages\\KhoHangFolder\\ListKho.razor",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAAABMAAAA8AAAA",
+              "DocumentIndex": 32,
+              "Title": "CustomerEdit.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhachHangFolder\\CustomerEdit.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\KhachHangFolder\\CustomerEdit.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhachHangFolder\\CustomerEdit.razor",
+              "RelativeToolTip": "WebBanHang\\Pages\\KhachHangFolder\\CustomerEdit.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-20T01:44:05.353Z"
+              "WhenOpened": "2024-06-23T07:46:03.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "WebBanHang\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Services\\AuthService.cs",
-              "RelativeToolTip": "WebBanHang\\Services\\AuthService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T14:52:56.251Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebBanHang\\Pages\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\_Layout.cshtml",
-              "RelativeToolTip": "WebBanHang\\Pages\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T16:15:07.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 34,
               "Title": "AuthRedirect.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\AuthRedirect.razor",
               "RelativeDocumentMoniker": "WebBanHang\\Pages\\AuthRedirect.razor",
@@ -572,270 +699,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "EditUser.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\NguoiDungFolder\\EditUser.razor",
-              "RelativeDocumentMoniker": "WebBanHang\\Pages\\NguoiDungFolder\\EditUser.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\NguoiDungFolder\\EditUser.razor",
-              "RelativeToolTip": "WebBanHang\\Pages\\NguoiDungFolder\\EditUser.razor",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T14:13:19.383Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ViewSanPham.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\SanPhamFolder\\ViewSanPham.razor",
-              "RelativeDocumentMoniker": "WebBanHang\\Pages\\SanPhamFolder\\ViewSanPham.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\SanPhamFolder\\ViewSanPham.razor",
-              "RelativeToolTip": "WebBanHang\\Pages\\SanPhamFolder\\ViewSanPham.razor",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAgAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T14:07:43.151Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Shared\\MainLayout.razor",
-              "RelativeDocumentMoniker": "WebBanHang\\Shared\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Shared\\MainLayout.razor",
-              "RelativeToolTip": "WebBanHang\\Shared\\MainLayout.razor",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T16:15:23.391Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "SurveyPrompt.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Shared\\SurveyPrompt.razor",
-              "RelativeDocumentMoniker": "WebBanHang\\Shared\\SurveyPrompt.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Shared\\SurveyPrompt.razor",
-              "RelativeToolTip": "WebBanHang\\Shared\\SurveyPrompt.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T16:15:29.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Login.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\Login.razor",
-              "RelativeDocumentMoniker": "WebBanHang\\Pages\\Login.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\Login.razor",
-              "RelativeToolTip": "WebBanHang\\Pages\\Login.razor",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAAgAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T14:07:42.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Logout.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\Logout.razor",
-              "RelativeDocumentMoniker": "WebBanHang\\Pages\\Logout.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\Logout.razor",
-              "RelativeToolTip": "WebBanHang\\Pages\\Logout.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T14:20:43.296Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\Index.razor",
-              "RelativeDocumentMoniker": "WebBanHang\\Pages\\Index.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\Index.razor",
-              "RelativeToolTip": "WebBanHang\\Pages\\Index.razor",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAABwAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T14:20:21.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Data\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "WebBanHang\\Data\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Data\\WeatherForecast.cs",
-              "RelativeToolTip": "WebBanHang\\Data\\WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T14:47:01.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "_Host.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\_Host.cshtml",
-              "RelativeDocumentMoniker": "WebBanHang\\Pages\\_Host.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\_Host.cshtml",
-              "RelativeToolTip": "WebBanHang\\Pages\\_Host.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T16:15:05.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Shared\\NavMenu.razor",
-              "RelativeDocumentMoniker": "WebBanHang\\Shared\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Shared\\NavMenu.razor",
-              "RelativeToolTip": "WebBanHang\\Shared\\NavMenu.razor",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAAAAUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T14:32:29.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
               "Title": "DashBoard.razor",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\DashBoard.razor",
               "RelativeDocumentMoniker": "WebBanHang\\Pages\\DashBoard.razor",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\DashBoard.razor",
               "RelativeToolTip": "WebBanHang\\Pages\\DashBoard.razor",
-              "ViewState": "AQIAAJcAAAAAAAAAAABBwKAAAAAXAAAA",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAKAAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-12T15:51:00.256Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\Login.razor",
+              "RelativeToolTip": "WebBanHang\\Pages\\Login.razor",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAABkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T14:07:42.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EditUser.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\NguoiDungFolder\\EditUser.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\NguoiDungFolder\\EditUser.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\NguoiDungFolder\\EditUser.razor",
+              "RelativeToolTip": "WebBanHang\\Pages\\NguoiDungFolder\\EditUser.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T14:13:19.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\_Imports.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\_Imports.razor",
+              "RelativeToolTip": "WebBanHang\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:15:31.326Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 37,
-              "Title": "MainLayout.razor.css",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Shared\\MainLayout.razor.css",
-              "RelativeDocumentMoniker": "WebBanHang\\Shared\\MainLayout.razor.css",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Shared\\MainLayout.razor.css",
-              "RelativeToolTip": "WebBanHang\\Shared\\MainLayout.razor.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-13T05:25:14.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\App.razor",
-              "RelativeDocumentMoniker": "WebBanHang\\App.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\App.razor",
-              "RelativeToolTip": "WebBanHang\\App.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T16:15:32.197Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "WebBanHang\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\appsettings.Development.json",
-              "RelativeToolTip": "WebBanHang\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-16T03:58:40.258Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "AddUser.razor",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\NguoiDungFolder\\AddUser.razor",
-              "RelativeDocumentMoniker": "WebBanHang\\Pages\\NguoiDungFolder\\AddUser.razor",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\NguoiDungFolder\\AddUser.razor",
-              "RelativeToolTip": "WebBanHang\\Pages\\NguoiDungFolder\\AddUser.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T14:13:22.061Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "WebBanHang\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Properties\\launchSettings.json",
-              "RelativeToolTip": "WebBanHang\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-18T15:55:52.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\Error.cshtml",
-              "RelativeDocumentMoniker": "WebBanHang\\Pages\\Error.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\Error.cshtml",
-              "RelativeToolTip": "WebBanHang\\Pages\\Error.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T14:13:20.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "WebBanHang\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "WebBanHang\\wwwroot\\js\\site.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-23T10:51:50.975Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "Error.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\Error.cshtml.cs",
-              "RelativeDocumentMoniker": "WebBanHang\\Pages\\Error.cshtml.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\Error.cshtml.cs",
-              "RelativeToolTip": "WebBanHang\\Pages\\Error.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T15:55:03.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "WeatherForecastService.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Data\\WeatherForecastService.cs",
-              "RelativeDocumentMoniker": "WebBanHang\\Data\\WeatherForecastService.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Data\\WeatherForecastService.cs",
-              "RelativeToolTip": "WebBanHang\\Data\\WeatherForecastService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T14:47:00.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "WebBanHang\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "WebBanHang\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAFUAAAAAAAAAAIBZwFMAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-12T14:19:33.453Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "nen2.jpg -  [English (United States)] - Bitmap [1280x720, 24 bit, JPG]",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\nen2.jpg",
-              "RelativeDocumentMoniker": "WebBanHang\\wwwroot\\images\\nen2.jpg",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\nen2.jpg -  [English (United States)] - Bitmap [1280x720, 24 bit, JPG]",
-              "RelativeToolTip": "WebBanHang\\wwwroot\\images\\nen2.jpg -  [English (United States)] - Bitmap [1280x720, 24 bit, JPG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-06-16T09:03:04.619Z",
-              "EditorCaption": " -  [English (United States)] - Bitmap [1280x720, 24 bit, JPG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
               "Title": "NguyenTuanK55.csproj",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\NguyenTuanK55.csproj",
               "RelativeDocumentMoniker": "WebBanHang\\NguyenTuanK55.csproj",
@@ -847,7 +758,211 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CustomerList.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhachHangFolder\\CustomerList.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\KhachHangFolder\\CustomerList.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhachHangFolder\\CustomerList.razor",
+              "RelativeToolTip": "WebBanHang\\Pages\\KhachHangFolder\\CustomerList.razor",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAAAAUBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T07:44:07.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AddKho.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhoHangFolder\\AddKho.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\KhoHangFolder\\AddKho.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhoHangFolder\\AddKho.razor",
+              "RelativeToolTip": "WebBanHang\\Pages\\KhoHangFolder\\AddKho.razor",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAABsAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T01:44:49.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ViewSanPham.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\SanPhamFolder\\ViewSanPham.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\SanPhamFolder\\ViewSanPham.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\SanPhamFolder\\ViewSanPham.razor",
+              "RelativeToolTip": "WebBanHang\\Pages\\SanPhamFolder\\ViewSanPham.razor",
+              "ViewState": "AQIAAM0AAAAAAAAAAAAAAOoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T14:07:43.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserList.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\NguoiDungFolder\\UserList.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\NguoiDungFolder\\UserList.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\NguoiDungFolder\\UserList.razor",
+              "RelativeToolTip": "WebBanHang\\Pages\\NguoiDungFolder\\UserList.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T14:05:33.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ListKho.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhoHangFolder\\ListKho.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\KhoHangFolder\\ListKho.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\KhoHangFolder\\ListKho.razor",
+              "RelativeToolTip": "WebBanHang\\Pages\\KhoHangFolder\\ListKho.razor",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAAABMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T01:44:05.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "SurveyPrompt.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Shared\\SurveyPrompt.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Shared\\SurveyPrompt.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Shared\\SurveyPrompt.razor",
+              "RelativeToolTip": "WebBanHang\\Shared\\SurveyPrompt.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:15:29.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\Index.razor",
+              "RelativeToolTip": "WebBanHang\\Pages\\Index.razor",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAABwAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T14:20:21.914Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 45,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Data\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WebBanHang\\Data\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Data\\WeatherForecast.cs",
+              "RelativeToolTip": "WebBanHang\\Data\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T14:47:01.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "WebBanHang\\Shared\\NavMenu.razor",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAAAUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T14:32:29.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\App.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\App.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\App.razor",
+              "RelativeToolTip": "WebBanHang\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:15:32.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebBanHang\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\appsettings.Development.json",
+              "RelativeToolTip": "WebBanHang\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-16T03:58:40.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AddUser.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\NguoiDungFolder\\AddUser.razor",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\NguoiDungFolder\\AddUser.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\NguoiDungFolder\\AddUser.razor",
+              "RelativeToolTip": "WebBanHang\\Pages\\NguoiDungFolder\\AddUser.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T14:13:22.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebBanHang\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebBanHang\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-18T15:55:52.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "WebBanHang\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "WebBanHang\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-23T10:51:50.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Error.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\Error.cshtml.cs",
+              "RelativeDocumentMoniker": "WebBanHang\\Pages\\Error.cshtml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Pages\\Error.cshtml.cs",
+              "RelativeToolTip": "WebBanHang\\Pages\\Error.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T15:55:03.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "WeatherForecastService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Data\\WeatherForecastService.cs",
+              "RelativeDocumentMoniker": "WebBanHang\\Data\\WeatherForecastService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Data\\WeatherForecastService.cs",
+              "RelativeToolTip": "WebBanHang\\Data\\WeatherForecastService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T14:47:00.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "nen2.jpg -  [English (United States)] - Bitmap [1280x720, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\nen2.jpg",
+              "RelativeDocumentMoniker": "WebBanHang\\wwwroot\\images\\nen2.jpg",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\images\\nen2.jpg -  [English (United States)] - Bitmap [1280x720, 24 bit, JPG]",
+              "RelativeToolTip": "WebBanHang\\wwwroot\\images\\nen2.jpg -  [English (United States)] - Bitmap [1280x720, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-06-16T09:03:04.619Z",
+              "EditorCaption": " -  [English (United States)] - Bitmap [1280x720, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
               "Title": "NavMenu.razor.css",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\Shared\\NavMenu.razor.css",
               "RelativeDocumentMoniker": "WebBanHang\\Shared\\NavMenu.razor.css",
@@ -859,7 +974,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 55,
               "Title": "Renderer.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\.vsdbgsrc\\3adaeae50d39dc7423a3f8e9deff6d632d6036ab37d8b32baf8dc2c4ada3ecc4\\Renderer.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\3adaeae50d39dc7423a3f8e9deff6d632d6036ab37d8b32baf8dc2c4ada3ecc4\\Renderer.cs",
@@ -870,7 +985,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 63,
               "Title": "bootstrap.min.css",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Project\\WEBQLBANDT\\WebQuanLyBanHang\\WebBanHang\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
               "RelativeDocumentMoniker": "WebBanHang\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
@@ -882,7 +997,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 57,
               "Title": "Pages__Host_cshtml.g.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\.vsdbgsrc\\7a394e184733b3f4be969c0dc5f39225310019ed\\Pages__Host_cshtml.g.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\7a394e184733b3f4be969c0dc5f39225310019ed\\Pages__Host_cshtml.g.cs",
@@ -893,7 +1008,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 56,
               "Title": "Pages__Layout_cshtml.g.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\.vsdbgsrc\\495ac410c2196c0e61954a9b16ca4056eeedb45c\\Pages__Layout_cshtml.g.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\495ac410c2196c0e61954a9b16ca4056eeedb45c\\Pages__Layout_cshtml.g.cs",
@@ -904,7 +1019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 59,
               "Title": "Shared_MainLayout_razor.g.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\.vsdbgsrc\\b4e6d0d509c50f54063da883bf38aa55eba169db\\Shared_MainLayout_razor.g.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b4e6d0d509c50f54063da883bf38aa55eba169db\\Shared_MainLayout_razor.g.cs",
@@ -915,7 +1030,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 60,
               "Title": "Shared_SurveyPrompt_razor.g.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\.vsdbgsrc\\d7950ce6b08fb10d7f2733263159456e7ff33873\\Shared_SurveyPrompt_razor.g.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\d7950ce6b08fb10d7f2733263159456e7ff33873\\Shared_SurveyPrompt_razor.g.cs",
@@ -926,7 +1041,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 61,
               "Title": "App_razor.g.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\.vsdbgsrc\\825f54837dff97229165bd3629179f24dd34ba69\\App_razor.g.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\825f54837dff97229165bd3629179f24dd34ba69\\App_razor.g.cs",
@@ -937,7 +1052,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 58,
               "Title": "_Imports_razor.g.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\.vsdbgsrc\\de7abc26185c2f44e4989a421e7d71a5eeb2b9cc\\_Imports_razor.g.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\de7abc26185c2f44e4989a421e7d71a5eeb2b9cc\\_Imports_razor.g.cs",

@@ -23,7 +23,7 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddSession();
 
 builder.Services.AddMudServices();
-
+builder.Services.AddScoped<CartService>();
 
 
 var app = builder.Build();

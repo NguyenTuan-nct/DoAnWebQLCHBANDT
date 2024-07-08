@@ -1,0 +1,240 @@
+﻿@page "/giohang"
+@inject ApplicationDbContext DbContext
+@inject NavigationManager Navigation
+@inject CartService CartService
+
+<h1 class="text-center my-4">Giỏ Hàng</h1>
+
+@if (isLoading)
+{
+    <p>Loading...</p>
+}
+else
+{
+    @if (CartItems.Count == 0)
+    {
+        <p>Giỏ hàng của bạn đang trống.</p>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Sản phẩm</th>
+                    <th>Giá</th>
+                    <th>Số lượng</th>
+                    <th>Tổng</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in CartItems)
+                {
+                    <tr>
+                        <td>
+                            <div>
+                                <img src="@item.SanPham.Anh" alt="@item.SanPham.TenSanPham" />
+                                <span>@item.SanPham.TenSanPham</span>
+                            </div>
+                        </td>
+                        <td>@string.Format(new CultureInfo("vi-VN"), "{0:C0}", item.SanPham.GiaSanPham)</td>
+                        <td>
+                            <div class="quantity-container">
+                                <div class="quantity-buttons">
+                                    <button @onclick="() => UpdateQuantity(item.CartItemId, item.Quantity - 1)" disabled="@(!CanDecreaseQuantity(item))">-</button>
+                                    <span>@item.Quantity</span>
+                                    <button @onclick="() => UpdateQuantity(item.CartItemId, item.Quantity + 1)">+</button>
+                                </div>
+                            </div>
+                        </td>
+                        <td>@string.Format(new CultureInfo("vi-VN"), "{0:C0}", item.SanPham.GiaSanPham * item.Quantity)</td>
+                        <td>
+                            <button class="btn btn-danger" @onclick="() => RemoveFromCart(item.CartItemId)">Xóa</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <button class="btn btn-primary checkout-button" @onclick="Checkout">Thanh toán</button>
+    }
+}
+
+@code {
+    private List<CartItem> CartItems;
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadCartItems();
+        isLoading = false;
+    }
+
+    private async Task LoadCartItems()
+    {
+        CartItems = await DbContext.CartItems
+            .Include(ci => ci.SanPham)
+            .ToListAsync();
+    }
+
+    private async Task UpdateQuantity(int cartItemId, int newQuantity)
+    {
+        var cartItem = await DbContext.CartItems.FindAsync(cartItemId);
+        if (cartItem != null)
+        {
+            cartItem.Quantity = newQuantity;
+            if (cartItem.Quantity <= 0)
+            {
+                DbContext.CartItems.Remove(cartItem);
+            }
+            await DbContext.SaveChangesAsync();
+            await LoadCartItems();
+        }
+    }
+
+    private bool CanDecreaseQuantity(CartItem item)
+    {
+        return item.Quantity > 1;
+    }
+
+    private async Task RemoveFromCart(int cartItemId)
+    {
+        var cartItem = await DbContext.CartItems.FindAsync(cartItemId);
+        if (cartItem != null)
+        {
+            DbContext.CartItems.Remove(cartItem);
+            await DbContext.SaveChangesAsync();
+            await LoadCartItems();
+        }
+    }
+
+    private async Task Checkout()
+    {
+        Navigation.NavigateTo("/thongtinkhachhang");
+
+        /*foreach (var item in CartItems)
+        {
+            var sanPham = await DbContext.SanPhams.FindAsync(item.SanPhamId);
+            if (sanPham != null)
+            {
+                sanPham.TonKho -= item.Quantity;
+            }
+        }
+        DbContext.CartItems.RemoveRange(CartItems);
+        await DbContext.SaveChangesAsync();
+        Navigation.NavigateTo("/hoadonkh");*/
+    }
+}
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #99CCCC;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+        .table th,
+        .table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .table th {
+            background-color: #007bff;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .table td img {
+            max-width: 100px;
+            border-radius: 5px;
+        }
+
+    .quantity-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .quantity-buttons {
+        display: flex;
+        align-items: center;
+    }
+
+        .quantity-buttons button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            padding: 5px 10px;
+            margin: 0 5px;
+            transition: background-color 0.3s;
+        }
+
+            .quantity-buttons button:hover {
+                background-color: #0056b3;
+            }
+
+            .quantity-buttons button:disabled {
+                background-color: #ccc;
+                cursor: not-allowed;
+            }
+
+    .checkout-button {
+        margin-top: 20px;
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+        .checkout-button:hover {
+            background-color: #218838;
+        }
+
+    .btn-danger {
+        background-color: #dc3545;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .my-4 {
+        margin: 20px 0;
+    }
+
+    .message {
+        text-align: center;
+        font-size: 1.2em;
+        color: #777;
+        padding: 20px;
+    }
+</style>
